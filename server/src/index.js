@@ -1,14 +1,12 @@
 const express = require('express')
-const app = express()
 const cors = require('cors')
+const routes = require('./routes')
+
+const app = express()
 
 app.use(cors())
-
-const alunos = ['edgar', 'jef', 'fabio', 'andre']
-
-app.get('/', (req, res) => {
-  res.json(alunos)
-})
+app.use(express.json())
+app.use(routes)
 
 app.listen(process.env.PORT || 4000, () => {
   console.log('Server run!')
