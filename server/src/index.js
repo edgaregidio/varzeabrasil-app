@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
   res.json(alunos)
 })
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log('Server run!')
 })
