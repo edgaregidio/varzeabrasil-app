@@ -1,20 +1,25 @@
+import TableMain from '../../components/TableMain'
+import GunnersMain from '../../components/GunnersMain'
 import React from 'react'
 import './styles.css'
 
 export default function Main() {
   return (
     <div>
-      <section className="news" key={data.id}>
-        <div className="col">{data.description}</div>
-        <div className="col">
-          <div className="cards">img 2</div>
-          <div className="cards">img 3</div>
+      <section className="news">
+        <div className="card-news">
+          <h1>
+            Flamengo encontra caminho pelo alto para tentar sair da pressão;
+            Arão é destaque
+          </h1>
+          <p>Cinco dos últimos seis gols da equipe foram marcados de cabeça</p>
         </div>
       </section>
       <section className="tables">
-        <div className="table-camp">Tables</div>
-        <div className="table-gunners">gunners</div>
+        <TableMain>Tables</TableMain>
+        <GunnersMain>gunners</GunnersMain>
       </section>
+      <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
     </div>
   )
 }

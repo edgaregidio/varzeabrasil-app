@@ -1,6 +1,6 @@
 const express = require('express')
-const newsController = require('./controller/newsController')
-const teamsController = require('./controller/teamsController')
+const newsController = require('./api/newsController')
+const teamsController = require('./api/teamsController')
 
 const routes = express.Router()
 
