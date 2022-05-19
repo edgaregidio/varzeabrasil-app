@@ -10,8 +10,8 @@ export default function GunnersMain() {
         <h1>Principais Artilheros</h1>
         <h3>
           Ops...! Estamos trabalhando para colher todos os dados, espera mais um
-          pouquinho que já já teremos todas as informações dos artilhos da Copa
-          Cepro.
+          pouquinho que já já teremos todas as informações dos artilheiros da
+          Copa Cepro.
         </h3>
       </div>
     </div>
