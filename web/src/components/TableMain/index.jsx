@@ -17,7 +17,7 @@ export default function TableMain() {
     <div className="container-table">
       <h2>Copa Cepro</h2>
       <div className="content-table">
-        <h1>Quartas de finail</h1>
+        <h1>Quartas de final</h1>
         <CardTable
           date={'SAB 21/05/2022'}
           time={'16h00'}
