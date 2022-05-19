@@ -1,11 +1,15 @@
 import TableMain from '../../components/TableMain'
 import GunnersMain from '../../components/GunnersMain'
 import React from 'react'
+import Logo from '../../assets/logovb.png'
 import './styles.css'
 
 export default function Main() {
   return (
     <div>
+      <nav>
+        <img src={Logo} alt="Logo Varzea Brasil" />
+      </nav>
       <section className="news">
         <div className="card-news">
           <h1>

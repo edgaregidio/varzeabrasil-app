@@ -1,9 +1,23 @@
+nav,
 footer,
 .tables,
 .news {
   padding: 0 20%;
   display: flex;
   gap: 0.5rem;
+}
+
+nav {
+  background: var(--primary-color);
+}
+
+nav img {
+  width: 15rem;
+  padding: 2rem 0;
+}
+
+.news {
+  margin-top: 2rem;
 }
 
 .news .card-news {
@@ -78,6 +92,11 @@ footer {
   .tables,
   .news {
     padding: 0;
+  }
+
+  .news {
+    text-align: center;
+    margin-top: 0;
   }
 
   .news .card-news p,
