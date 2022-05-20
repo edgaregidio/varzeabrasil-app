@@ -13,10 +13,10 @@ export default function Main() {
       <section className="news">
         <div className="card-news">
           <h1>
-            Flamengo encontra caminho pelo alto para tentar sair da pressão;
-            Arão é destaque
+            Com clima de clássico, Folia e Tabajara empatam com expulsões.
           </h1>
-          <p>Cinco dos últimos seis gols da equipe foram marcados de cabeça</p>
+          <p>Clima tenso no campo do Muranga e classificações.</p>
+          <p>Times se preparam para as Quartas de Final.</p>
         </div>
       </section>
       <section className="tables">

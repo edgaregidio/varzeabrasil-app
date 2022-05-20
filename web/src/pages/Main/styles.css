@@ -18,6 +18,23 @@ footer,
   position: relative;
   overflow: hidden;
 }
+
+.news .card-news:before {
+  content: '';
+  display: block;
+  position: absolute;
+  /* left: 0; */
+  /* top: 0; */
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  background-image: url('../../assets/news/materia1.jpeg');
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  background-size: cover;
+}
+
 .news .card-news p,
 .news .card-news h1 {
   height: auto;
@@ -37,22 +54,6 @@ footer,
   width: 70%;
   font-size: 1.5rem;
   font-weight: 300;
-}
-
-.news .card-news:before {
-  content: '';
-  display: block;
-  position: absolute;
-  /* left: 0; */
-  /* top: 0; */
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0.5;
-  background-image: url('https://conteudo.imguol.com.br/c/esporte/0e/2022/04/17/isla-jogador-do-flamengo-comemora-seu-gol-com-jogadores-do-seu-time-durante-partida-contra-o-sao-paulo-1650228704306_v2_900x506.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
 }
 
 .tables {
