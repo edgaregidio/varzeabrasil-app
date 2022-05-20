@@ -1,15 +1,12 @@
-import { IconContext, CaretLeft } from 'phosphor-react'
+import { IconContext, CaretLeft, CodesandboxLogo } from 'phosphor-react'
 import React, { useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
-// import { Link } from 'react-router-dom'
 import Nav from '../../components/Nav'
 import Supplier from '../../components/Supplier'
 
 import './styles.css'
 
 export default function Tables() {
-  const navigate = useNavigate()
-
   return (
     <>
       <div className="container-default" id="teste">

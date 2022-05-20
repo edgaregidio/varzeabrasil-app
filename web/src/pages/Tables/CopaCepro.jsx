@@ -5,6 +5,7 @@ import QuarterFinals from '../../components/QuarterFinals'
 import SemiFinal from '../../components/SemiFinal'
 import Final from '../../components/Final'
 import './styles.css'
+import GunnersMain from '../../components/GunnersMain'
 
 export default function CopaCepro() {
   const [count, setCount] = useState(1)
@@ -48,6 +49,10 @@ export default function CopaCepro() {
           {count === 3 && <Final />}
         </div>
       </section>
+
+      <div className="tables-games">
+        <GunnersMain />
+      </div>
     </div>
   )
 }

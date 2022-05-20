@@ -1,0 +1,136 @@
+.container-table-gunners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  /* margin-top: 2rem; */
+}
+
+.container-table-gunners-temporary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.container-table-gunners-temporary h2,
+.container-table-gunners h2 {
+  margin: 1rem 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.content-table-gunners-temporary {
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.content-table-gunners {
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.content-table-gunners-temporary h1,
+.content-table-gunners h1 {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.content-table-gunners .row-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+.content-table-gunners .row-header h3 {
+  color: var(--secondary-color);
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.content-table-gunners .scroll-gunners {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.content-table-gunners .scroll-gunners .content-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.content-table-gunners .scroll-gunners .content-scroll .colls {
+  display: flex;
+  align-items: center;
+}
+
+.content-table-gunners .scroll-gunners .content-scroll .colls h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  min-width: 1rem;
+}
+.content-table-gunners .scroll-gunners .content-scroll .colls h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.colls .avatar-players {
+  background: black;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.content-table-gunners .scroll-gunners .content-scroll .colls img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.content-names {
+  margin-left: 1rem;
+  padding: 0;
+  width: auto;
+}
+
+.content-names h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.content-names p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 800px) {
+  .container-table-gunners-temporary {
+    padding: 0.75rem;
+  }
+  .container-table-gunners {
+    /* margin: 0.75rem; */
+  }
+}

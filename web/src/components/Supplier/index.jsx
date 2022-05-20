@@ -5,7 +5,7 @@ import './styles.css'
 
 export default function Supplier() {
   const navitage = useNavigate()
-  const [selectValue, setSelectValue] = useState(1)
+  const [selectValue, setSelectValue] = useState('')
   const list = [
     { id: 1, value: 'select', name: 'Selecione' },
     { id: 2, value: 'copacepro', name: 'Copa Cepro' }

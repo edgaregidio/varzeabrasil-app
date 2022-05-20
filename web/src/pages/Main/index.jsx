@@ -7,6 +7,7 @@ import Nav from '../../components/Nav'
 
 export default function Main() {
   const navigate = useNavigate()
+
   return (
     <>
       <div className="container-default">

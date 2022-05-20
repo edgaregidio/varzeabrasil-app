@@ -4,7 +4,7 @@ footer,
 .tables-camps,
 .tables-games,
 .content-page-table,
-.news {
+.container-table-gunners .news {
   padding: 0 20%;
   display: flex;
   gap: 0.5rem;
@@ -81,15 +81,17 @@ footer,
   align-items: center;
   background: var(--primary-color);
   border-radius: 4px;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   height: auto;
 }
+
 .container-table h2 {
   margin: 1rem 0;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--secondary-color);
 }
+
 .container-table h1 {
   margin-bottom: 1rem;
   font-size: 1rem;
@@ -98,7 +100,7 @@ footer,
   cursor: pointer;
 }
 
-button a {
+.button-table a {
   color: var(--secondary-color);
   background: var(--primary-color);
   width: 12rem;
@@ -110,13 +112,13 @@ button a {
   transition: all ease 0.3s;
 }
 
-button {
+.button-table {
   background: transparent;
   border: 0;
-  margin-top: 1.1rem;
+  margin-top: 2rem;
 }
 
-button a:hover {
+.button-table a:hover {
   color: var(--primary-color);
   background: var(--secondary-color);
   text-align: center;
@@ -188,7 +190,7 @@ footer {
     padding: 1rem;
   }
 
-  button a {
+  .button-table a {
     width: 100%;
     background: var(--secondary-color);
     color: var(--primary-color);
