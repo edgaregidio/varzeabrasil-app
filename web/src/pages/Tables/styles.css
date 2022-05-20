@@ -1,0 +1,43 @@
+.content-page-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-page-table .games-results {
+  margin-top: 1rem;
+  background: var(--primary-color);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.content-page-table h1 {
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+/* ===== RESPOSIVE */
+
+@media screen and (max-width: 1024px) {
+  .tables-games {
+    padding: 0;
+  }
+
+  .content-page-table {
+    margin-top: 1.5rem;
+  }
+  .content-page-table h1 {
+    text-align: center;
+  }
+
+  .content-page-table {
+    padding: 0 2%;
+  }
+
+  .tables-games h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+}

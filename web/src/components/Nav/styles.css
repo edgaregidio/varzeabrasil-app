@@ -1,0 +1,30 @@
+nav {
+  background: var(--primary-color);
+}
+
+nav img {
+  width: 15rem;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.tables-games {
+  padding: 3rem 20%;
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.content-navigation {
+  width: 100%;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+}
+
+.content-navigation h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}

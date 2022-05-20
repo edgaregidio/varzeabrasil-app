@@ -13,10 +13,10 @@ export default function MainRoutes() {
       <Route path="/" element={<Main />} />
       <Route path="/news" element={<News />} />
       <Route path="tables" element={<Tables />}>
-        <Route path="c" element={<h1>testando de novo</h1>} />
         <Route path=":id" element={<Profile />} />
       </Route>
       <Route path="/gunners" element={<Gunners />} />
+      <Route path="*" element={<h1>Not Found</h1>} />
     </Routes>
   )
 }

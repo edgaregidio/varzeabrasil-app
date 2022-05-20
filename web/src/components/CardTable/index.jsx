@@ -10,7 +10,8 @@ export default function CardTable({
   date,
   time,
   resultA,
-  resultB
+  resultB,
+  phase
 }) {
   return (
     <div className="card-table">
@@ -32,7 +33,7 @@ export default function CardTable({
           <h1>{nameB}</h1>
         </div>
       </div>
-      <h4>quartas 1</h4>
+      <h4>{phase}</h4>
     </div>
   )
 }

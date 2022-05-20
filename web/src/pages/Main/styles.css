@@ -1,19 +1,11 @@
 nav,
 footer,
 .tables,
+.content-page-table,
 .news {
   padding: 0 20%;
   display: flex;
   gap: 0.5rem;
-}
-
-nav {
-  background: var(--primary-color);
-}
-
-nav img {
-  width: 15rem;
-  padding: 2rem 0;
 }
 
 .news {
@@ -69,6 +61,59 @@ nav img {
   grid-template-columns: 1fr 1fr;
 }
 
+/* ======= SECTION TABBS */
+
+.container-table {
+  width: 100%;
+}
+
+.content-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding: 1rem;
+  height: auto;
+}
+.container-table h2 {
+  margin: 1rem 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.container-table h1 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 0;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  transition: all ease 0.3s;
+  font-size: 1rem;
+}
+button:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* ========= FOOTER */
+
 footer {
   display: flex;
   align-items: center;
@@ -84,6 +129,16 @@ footer {
   .tables,
   .news {
     padding: 0;
+  }
+
+  .container-table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-table {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -120,6 +175,14 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
   }
 
   footer {
