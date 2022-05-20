@@ -98,25 +98,28 @@ footer,
   cursor: pointer;
 }
 
-button {
-  background: transparent;
+button a {
+  color: var(--secondary-color);
+  background: var(--primary-color);
   width: 12rem;
   padding: 0.5rem;
-  border-radius: 8px;
-  border: 0;
-  color: var(--secondary-color);
+  border-radius: 4px;
   text-align: center;
-  margin-top: 1rem;
-  transition: all ease 0.3s;
-  font-weight: 500;
   font-size: 1rem;
+  font-weight: 500;
+  transition: all ease 0.3s;
 }
-button:hover {
+
+button {
+  background: transparent;
+  border: 0;
+  margin-top: 1.1rem;
+}
+
+button a:hover {
   color: var(--primary-color);
   background: var(--secondary-color);
   text-align: center;
-  margin-top: 1rem;
-  font-weight: 500;
 }
 
 /* ========= FOOTER */
@@ -185,12 +188,14 @@ footer {
     padding: 1rem;
   }
 
-  button {
+  button a {
     width: 100%;
     background: var(--secondary-color);
     color: var(--primary-color);
     font-size: 1.3rem;
     font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 35px;
   }
 
   footer {

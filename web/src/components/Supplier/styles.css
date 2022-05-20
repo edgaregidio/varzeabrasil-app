@@ -1,5 +1,4 @@
 .container-supplier {
-  /* background-color: greenyellow; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,10 +8,22 @@
 .container-supplier button {
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
   height: 2rem;
-  border-radius: 4px;
   margin-left: 1rem;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  width: 12rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+
+button:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  text-align: center;
 }
 
 .container-supplier button:hover {

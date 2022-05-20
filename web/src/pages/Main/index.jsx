@@ -30,7 +30,7 @@ export default function Main() {
                 className="button-table"
                 onClick={() => navigate('/tables/copacepro')}
               >
-                Ver tabela completa...
+                <a href="#teste">Ver tabela completa...</a>
               </button>
             </div>
           </div>

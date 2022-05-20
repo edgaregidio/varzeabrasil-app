@@ -12,7 +12,7 @@ export default function Tables() {
 
   return (
     <>
-      <div className="container-default">
+      <div className="container-default" id="teste">
         <Nav />
         <section className="tables-camps">
           <div className="content-back">
@@ -20,10 +20,11 @@ export default function Tables() {
               value={{
                 color: 'var(--secondary-color)',
                 size: 32,
-                weight: 'bold'
+                weight: 'bold',
+                cursor: 'pointer'
               }}
             >
-              <CaretLeft onClick={() => navigate(-1)} />
+              <CaretLeft onClick={() => navigate('/tables')} />
             </IconContext.Provider>
             <h1>Selecione um campeonato</h1>
           </div>

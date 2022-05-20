@@ -30,3 +30,8 @@ html {
   /* chrome://flags/#smooth-scrolling */
   scroll-behavior: smooth;
 }
+
+a {
+  text-decoration: none;
+  list-style: none;
+}

@@ -7,7 +7,7 @@ export default function Supplier() {
   const navitage = useNavigate()
   const [selectValue, setSelectValue] = useState(1)
   const list = [
-    { id: 1, value: 'select', name: 'Selecione', selected: 'selected' },
+    { id: 1, value: 'select', name: 'Selecione' },
     { id: 2, value: 'copacepro', name: 'Copa Cepro' }
   ]
 
@@ -24,9 +24,7 @@ export default function Supplier() {
         onChange={e => setSelectValue(e.target.value)}
       >
         {list.map((item, index) => (
-          <option value={item.value} selected={item.selected}>
-            {item.name}
-          </option>
+          <option value={item.value}>{item.name}</option>
         ))}
       </select>
 
