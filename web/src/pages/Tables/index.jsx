@@ -8,15 +8,7 @@ import Final from '../../components/Final'
 import './styles.css'
 
 export default function Tables() {
-  const navigate = useNavigate()
   const [count, setCount] = useState(1)
-  const [fase, setFase] = useState('')
-  // console.log(control())
-
-  // const control = () => {
-  //   if (count === 1) return setFase('faasdsadse')
-  // }
-  // console.log(fase)
 
   return (
     <div>
