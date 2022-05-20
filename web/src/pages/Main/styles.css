@@ -10,6 +10,10 @@ footer,
   gap: 0.5rem;
 }
 
+.container-default {
+  min-height: 100vh;
+}
+
 .news {
   margin-top: 2rem;
 }
@@ -125,6 +129,7 @@ footer {
   padding: 3rem;
   margin-top: 2rem;
   text-align: center;
+  bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {

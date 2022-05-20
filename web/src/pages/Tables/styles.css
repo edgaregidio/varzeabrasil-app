@@ -18,6 +18,10 @@
 
 /* ==== TABLES GAMES */
 
+.content-tables-camps {
+  height: auto;
+}
+
 .tables-camps {
   height: 7rem;
   display: flex;

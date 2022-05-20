@@ -8,34 +8,36 @@ import Nav from '../../components/Nav'
 export default function Main() {
   const navigate = useNavigate()
   return (
-    <div>
-      <Nav />
-      <section className="news">
-        <div className="card-news">
-          <h1>
-            Com clima de clássico, Folia e Tabajara empatam com expulsões.
-          </h1>
-          <p>Clima tenso no campo do Muranga e classificações.</p>
-          <p>Times se preparam para as Quartas de Final.</p>
-        </div>
-      </section>
-      <section className="tables">
-        <div className="container-table">
-          <h2>Copa Cepro</h2>
-          <div className="content-table">
-            <h1>Quartas de final</h1>
-            <QuarterFinals />
-            <button
-              className="button-table"
-              onClick={() => navigate('/tables/copacepro')}
-            >
-              Ver tabela completa...
-            </button>
+    <>
+      <div className="container-default">
+        <Nav />
+        <section className="news">
+          <div className="card-news">
+            <h1>
+              Com clima de clássico, Folia e Tabajara empatam com expulsões.
+            </h1>
+            <p>Clima tenso no campo do Muranga e classificações.</p>
+            <p>Times se preparam para as Quartas de Final.</p>
           </div>
-        </div>
-        <GunnersMain />
-      </section>
-      <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
-    </div>
+        </section>
+        <section className="tables">
+          <div className="container-table">
+            <h2>Copa Cepro</h2>
+            <div className="content-table">
+              <h1>Quartas de final</h1>
+              <QuarterFinals />
+              <button
+                className="button-table"
+                onClick={() => navigate('/tables/copacepro')}
+              >
+                Ver tabela completa...
+              </button>
+            </div>
+          </div>
+          <GunnersMain />
+        </section>
+        <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
+      </div>
+    </>
   )
 }

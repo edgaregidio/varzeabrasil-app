@@ -11,24 +11,27 @@ export default function Tables() {
   const navigate = useNavigate()
 
   return (
-    <div>
-      <Nav />
-      <section className="tables-camps">
-        <div className="content-back">
-          <IconContext.Provider
-            value={{
-              color: 'var(--secondary-color)',
-              size: 32,
-              weight: 'bold'
-            }}
-          >
-            <CaretLeft onClick={() => navigate(-1)} />
-          </IconContext.Provider>
-          <h1>Selecione um campeonato</h1>
-        </div>
-        <Supplier />
-      </section>
-      <Outlet />
-    </div>
+    <>
+      <div className="container-default">
+        <Nav />
+        <section className="tables-camps">
+          <div className="content-back">
+            <IconContext.Provider
+              value={{
+                color: 'var(--secondary-color)',
+                size: 32,
+                weight: 'bold'
+              }}
+            >
+              <CaretLeft onClick={() => navigate(-1)} />
+            </IconContext.Provider>
+            <h1>Selecione um campeonato</h1>
+          </div>
+          <Supplier />
+        </section>
+        <Outlet />
+      </div>
+      <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
+    </>
   )
 }
