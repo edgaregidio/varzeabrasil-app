@@ -1,6 +1,8 @@
 nav,
 footer,
 .tables,
+.tables-camps,
+.tables-games,
 .content-page-table,
 .news {
   padding: 0 20%;
@@ -101,8 +103,8 @@ button {
   color: var(--secondary-color);
   text-align: center;
   margin-top: 1rem;
-  font-weight: 500;
   transition: all ease 0.3s;
+  font-weight: 500;
   font-size: 1rem;
 }
 button:hover {

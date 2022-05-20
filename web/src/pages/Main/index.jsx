@@ -27,7 +27,7 @@ export default function Main() {
             <QuarterFinals />
             <button
               className="button-table"
-              onClick={() => navigate('/tables')}
+              onClick={() => navigate('/tables/copacepro')}
             >
               Ver tabela completa...
             </button>

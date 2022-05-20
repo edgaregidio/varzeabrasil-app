@@ -6,6 +6,7 @@ import News from './pages/News'
 import Tables from './pages/Tables'
 import Gunners from './pages/Gunners'
 import Profile from './pages/Profile'
+import CopaCepro from './pages/Tables/CopaCepro'
 
 export default function MainRoutes() {
   return (
@@ -13,6 +14,7 @@ export default function MainRoutes() {
       <Route path="/" element={<Main />} />
       <Route path="/news" element={<News />} />
       <Route path="tables" element={<Tables />}>
+        <Route path="copacepro" element={<CopaCepro />} />
         <Route path=":id" element={<Profile />} />
       </Route>
       <Route path="/gunners" element={<Gunners />} />

@@ -16,6 +16,43 @@
   text-transform: uppercase;
 }
 
+/* ==== TABLES GAMES */
+
+.tables-camps {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.tables-camps .content-back h1 {
+  color: var(--secondary-color);
+  width: 100%;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.content-back {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.content-navigation {
+  width: 100%;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+}
+
+.content-navigation h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
 /* ===== RESPOSIVE */
 
 @media screen and (max-width: 1024px) {
@@ -37,7 +74,32 @@
   .tables-games h1 {
     font-size: 1.4rem;
   }
+
+  .tables-camps h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .tables-camps {
+    flex-direction: column;
+    height: auto !important;
+    padding: 2rem 0;
+  }
+  .tables-camps h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-back {
+    justify-content: center;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-back h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
 }

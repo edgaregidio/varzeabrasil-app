@@ -1,56 +1,34 @@
+import { IconContext, CaretLeft } from 'phosphor-react'
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { CaretLeft, CaretRight } from 'phosphor-react'
+import { Outlet, useNavigate } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Nav from '../../components/Nav'
-import QuarterFinals from '../../components/QuarterFinals'
-import SemiFinal from '../../components/SemiFinal'
-import Final from '../../components/Final'
+import Supplier from '../../components/Supplier'
+
 import './styles.css'
 
 export default function Tables() {
-  const [count, setCount] = useState(1)
+  const navigate = useNavigate()
 
   return (
     <div>
       <Nav />
-      <section className="tables-games">
-        <div className="content-navigation">
-          <CaretLeft
-            cursor={'pointer'}
-            size={32}
-            onClick={() => {
-              if (count <= 1) {
-                return null
-              }
-              if (count > 0) {
-                setCount(count - 1)
-              }
+      <section className="tables-camps">
+        <div className="content-back">
+          <IconContext.Provider
+            value={{
+              color: 'var(--secondary-color)',
+              size: 32,
+              weight: 'bold'
             }}
-          ></CaretLeft>
-          {count === 1 && <h1>Quartas de Final</h1>}
-          {count === 2 && <h1>Semi Final</h1>}
-          {count === 3 && <h1>Final</h1>}
-          <CaretRight
-            cursor={'pointer'}
-            size={32}
-            onClick={() => {
-              if (count >= 3) {
-                return null
-              }
-              setCount(count + 1)
-            }}
-          />
+          >
+            <CaretLeft onClick={() => navigate(-1)} />
+          </IconContext.Provider>
+          <h1>Selecione um campeonato</h1>
         </div>
+        <Supplier />
       </section>
-
-      <section className="content-page-table">
-        <h1>Tabela</h1>
-        <div className="games-results">
-          {count === 1 && <QuarterFinals />}
-          {count === 2 && <SemiFinal />}
-          {count === 3 && <Final />}
-        </div>
-      </section>
+      <Outlet />
     </div>
   )
 }
