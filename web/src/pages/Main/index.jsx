@@ -18,7 +18,7 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">1° Tempo</span>
+            <span className="game-time">2° Tempo</span>
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
               <h5 className="scoreboard-x">
