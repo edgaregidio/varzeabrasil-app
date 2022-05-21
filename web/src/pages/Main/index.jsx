@@ -18,7 +18,7 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">2° Tempo</span>
+            <span className="game-time">ENCERRADO</span>
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
               <h5 className="scoreboard-x">
@@ -26,20 +26,21 @@ export default function Main() {
                 <span className="scoreboard">1</span>
               </h5>
               <img src={Chopp} alt="Chopp" />
-              <h4 className="textFlashes">Bola Rolando...</h4>
+              <h4 className="textFlashes">Acabou...</h4>
             </div>
-            <h1>O jogo esquenta!</h1>
-            {/* <p>
-              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
-              Filostro Machado (Arena Muranga) às 16h.
+            <h1>Tabajara se classifica com 1 a menos</h1>
+            <p>
+              Com jogo cheio de expulsões, Tabajara se classifica com 1 a menos.
             </p>
-            <br />
-            <p>Acomanhe em tempo real aqui no Varzea Brasil!</p> */}
 
-            <p className="game-details">🟥 - Cartão vermelhor - Vitinho</p>
+            <p>
+              Juiz expulsa 7 jogadores do banco e mais 2 em campo do Tabajara
+            </p>
+
+            {/* <p className="game-details">🟥 - Cartão vermelhor - Vitinho</p>
             <p className="game-details">⚽ - Gol do Tabajara</p>
             <p className="game-details">⚽ - Gol do Chopp - Vinicius</p>
-            <p className="game-details">17:10 - Começa o segundo tempo!</p>
+            <p className="game-details">17:10 - Começa o segundo tempo!</p> */}
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos Flávio G. e Franchesco</p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo Flávio Gabriel </p> */}

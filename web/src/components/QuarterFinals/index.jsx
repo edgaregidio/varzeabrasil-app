@@ -24,7 +24,7 @@ export default function QuarterFinals() {
         resultB={'1'}
         nameB={'Chopp'}
         teamB={Chopp}
-        live={'Bola rolando'}
+        live={'Fim de jogo'}
         phase={'quartas 1'}
       />
       <CardTable
