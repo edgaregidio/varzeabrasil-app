@@ -18,7 +18,7 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">Times se preparando</span>
+            <span className="game-time">Times no vestiário!</span>
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
               <h5 className="scoreboard-x">
