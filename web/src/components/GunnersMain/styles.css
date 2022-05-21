@@ -4,29 +4,13 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
-  /* margin-top: 2rem; */
 }
 
-.container-table-gunners-temporary {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-}
-
-.container-table-gunners-temporary h2,
 .container-table-gunners h2 {
   margin: 1rem 0;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--secondary-color);
-}
-
-.content-table-gunners-temporary {
-  background: var(--primary-color);
-  border-radius: 4px;
-  padding: 1rem;
 }
 
 .content-table-gunners {
@@ -37,7 +21,6 @@
   padding-right: 0.5rem;
 }
 
-.content-table-gunners-temporary h1,
 .content-table-gunners h1 {
   color: var(--secondary-color);
   font-size: 1.6rem;
@@ -138,10 +121,4 @@
 }
 
 @media screen and (max-width: 800px) {
-  .container-table-gunners-temporary {
-    padding: 0.75rem;
-  }
-  .container-table-gunners {
-    /* margin: 0.75rem; */
-  }
 }

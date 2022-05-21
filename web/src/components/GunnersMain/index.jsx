@@ -129,19 +129,10 @@ export default function GunnersMain() {
   const photo =
     'https://i.pinimg.com/564x/bf/2c/d3/bf2cd3e35b1c81096c4567fbab465abb.jpg'
   return (
-    <div className="container-table-gunners-temporary">
+    <div className="container-table-gunners">
       <h2>Copa Cepro</h2>
 
       {console.log(photo)}
-
-      {/* <div className="content-table-gunners-temporary">
-        <h1>Principais Artilheros</h1>
-        <h3>
-          Ops...! Estamos trabalhando para colher todos os dados, espera mais um
-          pouquinho que já já teremos todas as informações dos artilheiros da
-          Copa Cepro.
-        </h3>
-      </div> */}
 
       <div className="content-table-gunners">
         <h1>Principais Artilheros</h1>

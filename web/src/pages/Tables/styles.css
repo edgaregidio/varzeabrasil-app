@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 1024px) {
   .tables-games {
-    padding: 0;
+    padding: 0.7rem;
   }
 
   .content-page-table {
