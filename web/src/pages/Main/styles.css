@@ -42,6 +42,13 @@ footer,
   background-size: cover;
 }
 
+.game-details {
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
 .news .card-news .game-time {
   position: relative;
   text-transform: uppercase;
@@ -291,12 +298,12 @@ footer {
 
   .news .card-news .game-time {
     left: 1rem;
-    top: 11.3rem;
+    top: 9rem;
   }
 
   .news .card-news .row--pre-game {
     left: 1rem;
-    top: 12rem;
+    top: 10rem;
   }
 
   .news .card-news .row--pre-game img {
@@ -314,7 +321,7 @@ footer {
   .news .card-news p,
   .news .card-news h1 {
     left: 1rem;
-    top: 15rem;
+    top: 11rem;
   }
 
   .news .card-news h1 {

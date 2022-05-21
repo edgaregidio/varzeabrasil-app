@@ -4,6 +4,7 @@ import QuarterFinals from '../../components/QuarterFinals'
 import GunnersMain from '../../components/GunnersMain'
 import './styles.css'
 import Nav from '../../components/Nav'
+import Ball from '../../assets/ball.png'
 
 import Tabajara from '../../assets/tabajara.png'
 import Chopp from '../../assets/chopp.png'
@@ -32,6 +33,13 @@ export default function Main() {
               Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
               Filostro Machado (Arena Muranga) às 16h.
             </p>
+            <br />
+            <p>Acomanhe em tempo real aqui no Varzea Brasil!</p>
+
+            {/* <p className="game-details">⚽ - Gol do </p>
+            <p className="game-details">🟨 - Cartão amarelo para </p>
+            <p className="game-details">🟥 - Cartão vermelho para</p>
+            <p className="game-details"></p> */}
           </div>
         </section>
         <section className="container"></section>
