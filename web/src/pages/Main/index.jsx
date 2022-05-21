@@ -21,12 +21,12 @@ export default function Main() {
               <img src={Tabajara} alt="Tabajara" />
               <h5>x</h5>
               <img src={Chopp} alt="Chopp" />
-              <h4>Pré-jogo</h4>
+              <h4>Pré-jogo...</h4>
             </div>
             <h1>Dia de decisão!</h1>
             <p>
-              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
-              Marechão Machado às 16h.
+              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio do
+              Muranga às 16h.
             </p>
           </div>
         </section>
