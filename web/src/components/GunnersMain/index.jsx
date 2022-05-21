@@ -60,7 +60,7 @@ const data = [
   {
     id: 6,
     name: ',Jayme Bruno',
-    function: 'Atacante',
+    function: 'Meio-Campo',
     goals: 4,
     photo: Shield,
     avatar: Avatar
@@ -76,7 +76,7 @@ const data = [
   {
     id: 6,
     name: 'Carlos Robston',
-    function: 'Atacante',
+    function: '',
     goals: 4,
     photo: Shield,
     avatar: Avatar
@@ -84,7 +84,7 @@ const data = [
   {
     id: 6,
     name: 'Arthur Alcântara',
-    function: 'Atacante',
+    function: '',
     goals: 4,
     photo: Shield,
     avatar: Avatar
@@ -94,7 +94,7 @@ const data = [
     name: 'Rafael Cedro',
     function: 'Atacante',
     goals: 6,
-    photo: Shield,
+    photo: Tabajara,
     avatar: Avatar
   }
 ]
