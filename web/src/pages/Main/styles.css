@@ -1,5 +1,6 @@
 nav,
 footer,
+.news,
 .tables,
 .tables-camps,
 .tables-games,
@@ -37,7 +38,7 @@ footer,
   opacity: 0.5;
   background-image: url('../../assets/news/materia1.jpeg');
   background-repeat: no-repeat;
-  background-position: 30% 0;
+  background-position: 50% 0;
   background-size: cover;
 }
 
