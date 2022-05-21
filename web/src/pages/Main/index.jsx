@@ -21,7 +21,7 @@ export default function Main() {
               <img src={Tabajara} alt="Tabajara" />
               <h5>x</h5>
               <img src={Chopp} alt="Chopp" />
-              <h4>Pré-jogo...</h4>
+              <h4 className="textFlashes">Pré-jogo...</h4>
             </div>
             <h1>Dia de decisão!</h1>
             <p>
