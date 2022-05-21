@@ -1,16 +1,95 @@
 import React, { useState } from 'react'
 
+import Shield from '../../assets/shield.png'
+import Tabajara from '../../assets/tabajara.png'
 import Folia from '../../assets/folia.png'
+import VilaNova from '../../assets/gvilanova.png'
+import Avatar from '../../assets/avatar.png'
 
 import './styles.css'
 
 const data = [
-  { id: 1, name: 'Diogenys', function: 'Atacante', goals: 5 },
-  { id: 2, name: 'Andre', function: 'Atacante', goals: 2 },
-  { id: 3, name: 'Jefferson', function: 'Atacante', goals: 3 },
-  { id: 4, name: 'Gabril', function: 'Atacante', goals: 4 },
-  { id: 5, name: 'Junior', function: 'Atacante', goals: 7 },
-  { id: 6, name: 'Flavio', function: 'Atacante', goals: 7 }
+  {
+    id: 1,
+    name: 'Leonardo Nero',
+    function: 'Atacante',
+    goals: 7,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 2,
+    name: 'André Teodoro',
+    function: 'Atacante',
+    goals: 8,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 3,
+    name: 'Afonso Custódio',
+    function: 'Atacante',
+    goals: 5,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 4,
+    name: 'Alex da Silva',
+    function: 'Atacante',
+    goals: 5,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 5,
+    name: 'Carlos Eduardo',
+    function: 'Atacante',
+    goals: 4,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 6,
+    name: 'Flávio Gabriel ',
+    function: 'Atacante',
+    goals: 4,
+    photo: Tabajara,
+    avatar:
+      'https://www.ogol.com.br/img/jogadores/63/702263_med__20200914231928_flavio_gabriel.jpg'
+  },
+  {
+    id: 6,
+    name: ',Jayme Bruno',
+    function: 'Atacante',
+    goals: 4,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 6,
+    name: 'Murilo Cavalcante',
+    function: 'Atacante',
+    goals: 4,
+    photo: Tabajara,
+    avatar: Avatar
+  },
+  {
+    id: 6,
+    name: 'Carlos Robston',
+    function: 'Atacante',
+    goals: 4,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 6,
+    name: 'Arthur Alcântara',
+    function: 'Atacante',
+    goals: 4,
+    photo: Shield,
+    avatar: Avatar
+  }
 ]
 
 // array de jogadores ordenado
@@ -47,21 +126,24 @@ ordened.forEach((player, index) => {
 // console.log(mapped)
 
 export default function GunnersMain() {
-  function countRanking() {}
+  const photo =
+    'https://i.pinimg.com/564x/bf/2c/d3/bf2cd3e35b1c81096c4567fbab465abb.jpg'
   return (
     <div className="container-table-gunners-temporary">
       <h2>Copa Cepro</h2>
 
-      <div className="content-table-gunners-temporary">
+      {console.log(photo)}
+
+      {/* <div className="content-table-gunners-temporary">
         <h1>Principais Artilheros</h1>
         <h3>
           Ops...! Estamos trabalhando para colher todos os dados, espera mais um
           pouquinho que já já teremos todas as informações dos artilheiros da
           Copa Cepro.
         </h3>
-      </div>
+      </div> */}
 
-      {/* <div className="content-table-gunners">
+      <div className="content-table-gunners">
         <h1>Principais Artilheros</h1>
         <div className="row-header">
           <h3>Ranking</h3>
@@ -73,11 +155,20 @@ export default function GunnersMain() {
               <div key={indexPlayer} className="content-scroll">
                 <div className="colls">
                   <h4>
-                    * só joga a posição na tela quando for o primeiro jogador da classificação
+                    {/* * só joga a posição na tela quando for o primeiro jogador da classificação */}
                     {indexPlayer === 0 ? indexClassificacoes + 1 : ''}
                   </h4>
-                  <div className="avatar-players" />
-                  <img src={Folia} alt={Folia} />
+                  {/* {console.log(player.photo)} */}
+                  <img
+                    src={player.avatar}
+                    alt="Foto do Jogador"
+                    className="avatar-players"
+                  />
+                  <img
+                    src={player.photo}
+                    alt="Escuto do time que o jogador trabalha"
+                    className="shield-player"
+                  />
                   <div className="content-names">
                     <h2>{player.name}</h2>
                     <p>{player.function}</p>
@@ -90,7 +181,7 @@ export default function GunnersMain() {
             ))
           )}
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

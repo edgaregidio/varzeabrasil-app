@@ -21,6 +21,7 @@ export default function Main() {
             <p>Times se preparam para as Quartas de Final.</p>
           </div>
         </section>
+        <section className="container"></section>
         <section className="tables">
           <div className="container-table">
             <h2>Copa Cepro</h2>
@@ -31,7 +32,7 @@ export default function Main() {
                 className="button-table"
                 onClick={() => navigate('/tables/copacepro')}
               >
-                <a href="#teste">Ver tabela completa...</a>
+                <a href="#table">Ver tabela completa...</a>
               </button>
             </div>
           </div>

@@ -62,11 +62,21 @@
   text-transform: uppercase;
 }
 
+.scroll-gunners::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-gunners::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 35px;
+}
+
 .content-table-gunners .scroll-gunners {
   height: 15rem;
   display: flex;
   flex-direction: column;
   overflow: scroll;
+  overflow-x: hidden;
 }
 .content-table-gunners .scroll-gunners .content-scroll {
   display: flex;
@@ -95,9 +105,10 @@
   height: 3rem;
   border-radius: 50%;
   margin-left: 1rem;
+  object-fit: cover;
 }
 
-.content-table-gunners .scroll-gunners .content-scroll .colls img {
+.content-table-gunners .scroll-gunners .content-scroll .colls .shield-player {
   width: 2.2rem;
   height: 2.2rem;
   margin-left: 1rem;

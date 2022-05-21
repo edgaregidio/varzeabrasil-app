@@ -11,7 +11,7 @@ export default function CopaCepro() {
   const [count, setCount] = useState(1)
   return (
     <div>
-      <section className="tables-games" id="#teste">
+      <section className="tables-games" id="#table">
         <div className="content-navigation">
           <CaretLeft
             cursor={'pointer'}
