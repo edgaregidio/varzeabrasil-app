@@ -22,7 +22,7 @@ export default function Main() {
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard">1</span>x
+                <span className="scoreboard">2</span>x
                 <span className="scoreboard">1</span>
               </h5>
               <img src={Chopp} alt="Chopp" />
@@ -36,10 +36,11 @@ export default function Main() {
             <br />
             <p>Acomanhe em tempo real aqui no Varzea Brasil!</p> */}
 
+            <p className="game-details">⚽ - Gol do Tabajara</p>
             <p className="game-details">⚽ - Gol do Chopp - Vinicius</p>
             <p className="game-details">17:10 - Começa o segundo tempo!</p>
             <p className="game-details">Fim do primeuro tempo</p>
-            <p className="game-details">🟥 - Expulsos Flávio G. e Franchesco</p>
+            {/* <p className="game-details">🟥 - Expulsos Flávio G. e Franchesco</p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo Flávio Gabriel </p> */}
             {/* <p className="game-details">16:20 - Apita o árbitro!</p> */}
           </div>
