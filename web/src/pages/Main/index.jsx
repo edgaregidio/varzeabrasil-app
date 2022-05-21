@@ -5,6 +5,9 @@ import GunnersMain from '../../components/GunnersMain'
 import './styles.css'
 import Nav from '../../components/Nav'
 
+import Tabajara from '../../assets/tabajara.png'
+import Chopp from '../../assets/chopp.png'
+
 export default function Main() {
   const navigate = useNavigate()
 
@@ -14,11 +17,17 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <h1>
-              Com clima de clássico, Folia e Tabajara empatam com expulsões.
-            </h1>
-            <p>Clima tenso no campo do Muranga e classificações.</p>
-            <p>Times se preparam para as Quartas de Final.</p>
+            <div className="row--pre-game">
+              <img src={Tabajara} alt="Tabajara" />
+              <h5>x</h5>
+              <img src={Chopp} alt="Chopp" />
+              <h4>Pré-jogo</h4>
+            </div>
+            <h1>Dia de decisão!</h1>
+            <p>
+              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
+              Marechão Machado às 16h.
+            </p>
           </div>
         </section>
         <section className="container"></section>
