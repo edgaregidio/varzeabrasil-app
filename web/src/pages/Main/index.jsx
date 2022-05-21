@@ -25,8 +25,8 @@ export default function Main() {
             </div>
             <h1>Dia de decisão!</h1>
             <p>
-              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio do
-              Muranga às 16h.
+              Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
+              Filostro Machado (Muranga) às 16h.
             </p>
           </div>
         </section>
