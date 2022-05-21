@@ -20,7 +20,7 @@ export default function QuarterFinals() {
         time={'16h00'}
         nameA={'Tabajara'}
         teamA={Tabajara}
-        resultA={'0'}
+        resultA={'1'}
         resultB={'0'}
         nameB={'Chopp'}
         teamB={Chopp}

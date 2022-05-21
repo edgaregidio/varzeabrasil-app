@@ -22,13 +22,13 @@ export default function Main() {
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard">0</span>x
+                <span className="scoreboard">1</span>x
                 <span className="scoreboard">0</span>
               </h5>
               <img src={Chopp} alt="Chopp" />
               <h4 className="textFlashes">Bola Rolando...</h4>
             </div>
-            <h1>Começooooou!</h1>
+            <h1>O jogo esquenta!</h1>
             {/* <p>
               Tabajara JR10 e Chopp abrem as quartas de final hoje no Estádio
               Filostro Machado (Arena Muranga) às 16h.
@@ -36,9 +36,9 @@ export default function Main() {
             <br />
             <p>Acomanhe em tempo real aqui no Varzea Brasil!</p> */}
 
+            <p className="game-details">⚽ - Gol do Tabajara - Vitinho</p>
             <p className="game-details">🟨 - Cartão amarelo Flávio Gabriel </p>
             <p className="game-details">16:20 - Apita o árbitro!</p>
-            {/* <p className="game-details">⚽ - Gol do </p> */}
             {/* <p className="game-details">🟥 - Cartão vermelho para</p> */}
           </div>
         </section>
