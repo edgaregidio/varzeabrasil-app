@@ -25,6 +25,12 @@
   text-align: center;
 }
 
+.card-table h5 {
+  margin: 0;
+  color: var(--live-color);
+  text-transform: uppercase;
+  font-weight: 800;
+}
 .card-table h4 {
   margin: 0;
   font-weight: 300;

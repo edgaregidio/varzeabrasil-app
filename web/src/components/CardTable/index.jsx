@@ -11,6 +11,7 @@ export default function CardTable({
   time,
   resultA,
   resultB,
+  live,
   phase
 }) {
   return (
@@ -33,6 +34,7 @@ export default function CardTable({
           <h1>{nameB}</h1>
         </div>
       </div>
+      <h5>{live}</h5>
       <h4>{phase}</h4>
     </div>
   )
