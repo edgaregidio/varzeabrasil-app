@@ -7,6 +7,7 @@ import Supplier from '../../components/Supplier'
 import './styles.css'
 
 export default function Tables() {
+  const navigate = useNavigate()
   return (
     <>
       <div className="container-default" id="teste">
