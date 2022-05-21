@@ -36,9 +36,9 @@ export default function Main() {
             <br />
             <p>Acomanhe em tempo real aqui no Varzea Brasil!</p> */}
 
+            <p className="game-details">🟨 - Cartão amarelo Flávio Gabriel </p>
             <p className="game-details">16:20 - Apita o árbitro!</p>
             {/* <p className="game-details">⚽ - Gol do </p> */}
-            {/* <p className="game-details">🟨 - Cartão amarelo para </p> */}
             {/* <p className="game-details">🟥 - Cartão vermelho para</p> */}
           </div>
         </section>
