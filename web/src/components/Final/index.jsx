@@ -9,6 +9,7 @@ import CardTable from '../CardTable'
 // import Braavos from '../../assets/braavos.png'
 // import Redencao from '../../assets/redencao.png'
 // import GVilaNova from '../../assets/gvilanova.png'
+import Shield from '../../assets/shield.png'
 
 export default function Final() {
   return (
@@ -17,11 +18,11 @@ export default function Final() {
         date={''}
         time={''}
         nameA={'Aguardando...'}
-        teamA={''}
+        teamA={Shield}
         resultA={''}
         resultB={''}
         nameB={'Aguardando...'}
-        teamB={''}
+        teamB={Shield}
         phase={'Final'}
       />
     </>

@@ -26,16 +26,18 @@ export default function Main() {
                 <span className="scoreboard">1</span>
               </h5>
               <img src={Chopp} alt="Chopp" />
-              <h4 className="textFlashes">Acabou...</h4>
+              {/* <h4 className="textFlashes">Acabou...</h4> */}
             </div>
-            <h1>Tabajara se classifica com 1 a menos</h1>
+            <h1>Time de Guerreiros!</h1>
             <p>
-              Com jogo cheio de expulsões, Tabajara se classifica com 1 a menos.
+              Jogo com muitas expulsões, Tabajata vence Chopp FC e se classifica
+              para semi-final da Copa Cepro
             </p>
 
             <p>
-              Juiz expulsa 7 jogadores do banco e mais 2 em campo do Tabajara
+              Juiz expulsa 5 jogadores do banco e mais 2 em campo do Tabajara.
             </p>
+            <p>Tabajara espera confronto para a Semi.</p>
 
             {/* <p className="game-details">🟥 - Cartão vermelhor - Vitinho</p>
             <p className="game-details">⚽ - Gol do Tabajara</p>

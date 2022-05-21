@@ -36,7 +36,7 @@ footer,
   height: 100%;
   z-index: -1;
   opacity: 0.4;
-  background-image: url('../../assets/stadium/stadium3.jpg');
+  background-image: url('../../assets/tabajara2x1chopp.jpeg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -332,7 +332,8 @@ footer {
 
   .news .card-news p {
     width: 90%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
   }
 
   .tables {
@@ -356,3 +357,58 @@ footer {
     font-size: 0.8rem;
   }
 }
+
+/* @media screen and (max-width: 660px) {
+  .news .card-news .game-time {
+    left: 1rem;
+    top: 9rem;
+    font-size: 0.8rem;
+  }
+
+  .news .card-news .row--pre-game img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .news .card-news .row--pre-game .scoreboard-x {
+    font-size: 1rem;
+  }
+  .news .card-news .row--pre-game .scoreboard {
+    font-size: 2.2rem;
+  }
+
+  .news .card-news p,
+  .news .card-news h1 {
+    left: 1rem;
+    top: 9.5rem;
+  }
+
+  .news .card-news h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  .news .card-news p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tables {
+    padding: 0.3rem;
+  }
+
+  .button-table a {
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 35px;
+  }
+
+  footer {
+    padding: 2rem;
+    font-size: 0.8rem;
+  }
+} */
