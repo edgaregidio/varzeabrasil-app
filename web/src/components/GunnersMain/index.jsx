@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 
 import Shield from '../../assets/shield.png'
 import Tabajara from '../../assets/tabajara.png'
-import Folia from '../../assets/folia.png'
-import VilaNova from '../../assets/gvilanova.png'
 import Avatar from '../../assets/avatar.png'
+import AndreTeodoro from '../../assets/players/andreteodoro.jpeg'
 
 import './styles.css'
 
@@ -23,7 +22,7 @@ const data = [
     function: 'Atacante',
     goals: 8,
     photo: Shield,
-    avatar: Avatar
+    avatar: AndreTeodoro
   },
   {
     id: 3,
@@ -53,7 +52,7 @@ const data = [
     id: 6,
     name: 'Flávio Gabriel ',
     function: 'Atacante',
-    goals: 4,
+    goals: 7,
     photo: Tabajara,
     avatar:
       'https://www.ogol.com.br/img/jogadores/63/702263_med__20200914231928_flavio_gabriel.jpg'
@@ -87,6 +86,14 @@ const data = [
     name: 'Arthur Alcântara',
     function: 'Atacante',
     goals: 4,
+    photo: Shield,
+    avatar: Avatar
+  },
+  {
+    id: 6,
+    name: 'Rafael Cedro',
+    function: 'Atacante',
+    goals: 6,
     photo: Shield,
     avatar: Avatar
   }

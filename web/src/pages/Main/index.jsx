@@ -17,11 +17,15 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
+            <span className="game-time">Times se preparando</span>
             <div className="row--pre-game">
               <img src={Tabajara} alt="Tabajara" />
-              <h5>x</h5>
+              <h5 className="scoreboard-x">
+                <span className="scoreboard"></span>x
+                <span className="scoreboard"></span>
+              </h5>
               <img src={Chopp} alt="Chopp" />
-              <h4 className="textFlashes">Pré-jogo...</h4>
+              <h4 className="textFlashes">Pré Jogo...</h4>
             </div>
             <h1>Dia de decisão!</h1>
             <p>
