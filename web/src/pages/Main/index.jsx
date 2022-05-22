@@ -42,11 +42,12 @@ export default function Main() {
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
+            <p className="game-details">⚽ - Gol di Lima, virada!. </p>
             <p className="game-details">⚽ - Gol di Lima, mais um empate. </p>
             <p className="game-details">⚽ - Gol do Folia </p>
             <p className="game-details">⚽ - Gol do Lima </p>
             <p className="game-details">⚽ - Gol do Folia </p>
-            <p className="game-details">10:53 - Apita o árbitro!</p>
+            {/* <p className="game-details">10:53 - Apita o árbitro!</p> */}
           </div>
         </section>
         <section className="container"></section>
