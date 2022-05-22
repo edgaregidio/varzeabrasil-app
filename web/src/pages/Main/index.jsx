@@ -18,7 +18,7 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">Times se preparando</span>
+            <span className="game-time">1° Tempo</span>
             <div className="row--pre-game">
               <img src={Lima} alt="Tabajara" />
               <h5 className="scoreboard-x">
@@ -26,15 +26,15 @@ export default function Main() {
                 <span className="scoreboard"></span>
               </h5>
               <img src={Folia} alt="Chopp" />
-              <h4 className="textFlashes">Pré-jogo...</h4>
+              <h4 className="textFlashes">Bola rolando...</h4>
             </div>
-            <h1>Mais uma decisão!</h1>
+            {/* <h1>Mais uma decisão!</h1>
             <p>
               Duas grandes equipes fazem o terceiro jogo das quartas de final em
               jogo único
             </p>
 
-            <p>Quem vai passar?</p>
+            <p>Quem vai passar?</p> */}
 
             {/* <p className="game-details">🟥 - Cartão vermelhor </p>
             <p className="game-details">⚽ - Gol do  </p>
@@ -43,7 +43,7 @@ export default function Main() {
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
-            {/* <p className="game-details">16:20 - Apita o árbitro!</p> */}
+            <p className="game-details">10:53 - Apita o árbitro!</p>
           </div>
         </section>
         <section className="container"></section>
