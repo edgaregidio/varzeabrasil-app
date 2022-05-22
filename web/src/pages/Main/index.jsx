@@ -22,7 +22,7 @@ export default function Main() {
             <div className="row--pre-game">
               <img src={Lima} alt="Tabajara" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard">0</span>x
+                <span className="scoreboard">1</span>x
                 <span className="scoreboard">1</span>
               </h5>
               <img src={Folia} alt="Chopp" />
