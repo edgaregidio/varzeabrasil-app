@@ -121,4 +121,18 @@
 }
 
 @media screen and (max-width: 800px) {
+  .content-table-gunners h1 {
+    font-size: 1.2rem;
+  }
+
+  .colls .avatar-players {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .colls .shield-player {
+    display: none;
+  }
 }

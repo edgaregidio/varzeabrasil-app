@@ -344,6 +344,7 @@ footer {
 
   .button-table a {
     width: 100%;
+    min-height: 2.4rem;
     background: var(--secondary-color);
     color: var(--primary-color);
     font-size: 1.3rem;
@@ -358,11 +359,11 @@ footer {
   }
 }
 
-/* @media screen and (max-width: 660px) {
+@media screen and (max-width: 405px) {
   .news .card-news .game-time {
     left: 1rem;
     top: 9rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .news .card-news .row--pre-game img {
@@ -380,7 +381,7 @@ footer {
   .news .card-news p,
   .news .card-news h1 {
     left: 1rem;
-    top: 9.5rem;
+    top: 11rem;
   }
 
   .news .card-news h1 {
@@ -389,26 +390,16 @@ footer {
   }
 
   .news .card-news p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
   }
 
-  .tables {
-    padding: 0.3rem;
-  }
-
   .button-table a {
-    width: 100%;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0.5rem 1.2rem;
-    border-radius: 35px;
+    font-size: 1rem;
   }
 
   footer {
     padding: 2rem;
     font-size: 0.8rem;
   }
-} */
+}
