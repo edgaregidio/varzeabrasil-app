@@ -62,7 +62,7 @@ export default function QuarterFinals() {
         resultB={'6'}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
-        live={'Bola rolando'}
+        live={'Encerrado'}
         phase={'quartas 4'}
       />
     </>
