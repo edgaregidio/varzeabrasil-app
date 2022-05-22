@@ -23,7 +23,7 @@ export default function Main() {
               <img src={Lima} alt="Tabajara" />
               <h5 className="scoreboard-x">
                 <span className="scoreboard">1</span>x
-                <span className="scoreboard">1</span>
+                <span className="scoreboard">2</span>
               </h5>
               <img src={Folia} alt="Chopp" />
               <h4 className="textFlashes">Bola rolando...</h4>
@@ -42,6 +42,7 @@ export default function Main() {
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
+            <p className="game-details">⚽ - Gol do Folia </p>
             <p className="game-details">⚽ - Gol do Lima </p>
             <p className="game-details">⚽ - Gol do Folia </p>
             <p className="game-details">10:53 - Apita o árbitro!</p>
