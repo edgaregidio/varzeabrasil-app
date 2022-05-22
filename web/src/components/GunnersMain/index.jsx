@@ -59,7 +59,7 @@ const data = [
   },
   {
     id: 6,
-    name: ',Jayme Bruno',
+    name: 'Jayme Bruno',
     function: 'Meio-Campo',
     goals: 4,
     photo: Shield,

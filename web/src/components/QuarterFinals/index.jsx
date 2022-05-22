@@ -32,8 +32,8 @@ export default function QuarterFinals() {
         time={'08h00'}
         nameA={'Baxadão'}
         teamA={Baxadao}
-        resultA={''}
-        resultB={''}
+        resultA={'0'}
+        resultB={'1'}
         nameB={'Braavos'}
         teamB={Braavos}
         live={'Bola Rolando'}
