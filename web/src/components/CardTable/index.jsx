@@ -12,7 +12,9 @@ export default function CardTable({
   resultA,
   resultB,
   live,
-  phase
+  phase,
+  penalty1,
+  penalty2
 }) {
   return (
     <div className="card-table">
@@ -26,7 +28,9 @@ export default function CardTable({
         </div>
         <div className="results">
           <h2>{resultA}</h2>
+          <p>{penalty1}</p>
           <h1>x</h1>
+          <p>{penalty2}</p>
           <h2>{resultB}</h2>
         </div>
         <div className="team-col">

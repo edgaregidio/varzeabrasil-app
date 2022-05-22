@@ -45,6 +45,8 @@ export default function QuarterFinals() {
         nameA={'Lima'}
         teamA={Lima}
         resultA={'3'}
+        penalty1={'(5)'}
+        penalty2={'(3)'}
         resultB={'3'}
         nameB={'Folia'}
         teamB={Folia}
