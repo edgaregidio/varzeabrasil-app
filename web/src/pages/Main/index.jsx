@@ -18,33 +18,37 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">2° Tempo</span>
+            <span className="game-time">Classificado</span>
             <div className="row--pre-game">
-              <img src={Lima} alt="Tabajara" />
+              <img src={Lima} alt="Lima" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard">3</span>x
+                <span className="scoreboard">3</span>(5) x (3)
                 <span className="scoreboard">3</span>
               </h5>
-              <img src={Folia} alt="Chopp" />
-              <h4 className="textFlashes">Bola rolando...</h4>
+              <img src={Folia} alt="Folia" />
+              {/* <h4 className="textFlashes">Bola rolando...</h4> */}
             </div>
-            <h1>decisão nos penaltis!</h1>
-            {/*<p>
-              Duas grandes equipes fazem o terceiro jogo das quartas de final em
-  r            jogo único
+            <h1>Deu Lima!</h1>
+            <p>
+              Em jogo muito dispultado e com muitos gols, Lima vence Folia nos
+              penaltis e se classifica para a Semi Final da Primeiro edição Copa
+              Cepro 2022.
             </p>
 
-            <p>Quem vai passar?</p> */}
+            <p>Ultimo jogo às 16h: Rendeção x G. Vila Nova</p>
+
+            {/* TEMPO REAL  */}
+
             {/* <p className="game-details">🟥 - Cartão vermelhor </p>
             <p className="game-details">⚽ - Gol do  </p>
           <p className="game-details"> - Começa o segundo tempo!</p> */}
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
-            <p className="game-details">Acabou, vamos para os penaltis! </p>
+            {/* <p className="game-details">Acabou, vamos para os penaltis! </p>
             <p className="game-details">⚽ - Gol do Folia, novo empate! </p>
             <p className="game-details">⚽ - Gol do Lima, virada!. </p>
-            <p className="game-details">⚽ - Gol do Lima, mais um empate. </p>
+            <p className="game-details">⚽ - Gol do Lima, mais um empate. </p> */}
             {/* <p className="game-details">⚽ - Gol do Folia </p> */}
             {/* <p className="game-details">⚽ - Gol do Lima </p> */}
             {/* <p className="game-details">10:53 - Apita o árbitro!</p> */}

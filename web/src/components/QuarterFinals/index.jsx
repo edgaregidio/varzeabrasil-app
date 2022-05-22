@@ -24,7 +24,7 @@ export default function QuarterFinals() {
         resultB={'1'}
         nameB={'Chopp'}
         teamB={Chopp}
-        live={'Fim de jogo'}
+        live={'Encerrado'}
         phase={'quartas 1'}
       />
       <CardTable
@@ -36,7 +36,7 @@ export default function QuarterFinals() {
         resultB={'2'}
         nameB={'Braavos'}
         teamB={Braavos}
-        live={'Fim de jogo'}
+        live={'Encerrado'}
         phase={'quartas 2'}
       />
       <CardTable
@@ -44,11 +44,11 @@ export default function QuarterFinals() {
         time={'10h00'}
         nameA={'Lima'}
         teamA={Lima}
-        resultA={'2'}
-        resultB={'2'}
+        resultA={'3'}
+        resultB={'3'}
         nameB={'Folia'}
         teamB={Folia}
-        live={'Bola rolando '}
+        live={'Encerrado'}
         phase={'quartas 3'}
       />
       <CardTable
