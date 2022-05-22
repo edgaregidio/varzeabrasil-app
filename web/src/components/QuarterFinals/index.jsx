@@ -58,11 +58,11 @@ export default function QuarterFinals() {
         time={'16h00'}
         nameA={'Redenção'}
         teamA={Redencao}
-        resultA={''}
-        resultB={''}
+        resultA={'4'}
+        resultB={'6'}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
-        // live={'Acompanhe o jogo'}
+        live={'Bola rolando'}
         phase={'quartas 4'}
       />
     </>
