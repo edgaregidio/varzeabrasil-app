@@ -22,8 +22,8 @@ export default function Main() {
             <div className="row--pre-game">
               <img src={Lima} alt="Tabajara" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard"></span>x
-                <span className="scoreboard"></span>
+                <span className="scoreboard">0</span>x
+                <span className="scoreboard">1</span>
               </h5>
               <img src={Folia} alt="Chopp" />
               <h4 className="textFlashes">Bola rolando...</h4>
@@ -31,18 +31,18 @@ export default function Main() {
             {/* <h1>Mais uma decisão!</h1>
             <p>
               Duas grandes equipes fazem o terceiro jogo das quartas de final em
-              jogo único
+  r            jogo único
             </p>
 
             <p>Quem vai passar?</p> */}
 
             {/* <p className="game-details">🟥 - Cartão vermelhor </p>
             <p className="game-details">⚽ - Gol do  </p>
-            <p className="game-details">⚽ - Gol do  </p>
-            <p className="game-details"> - Começa o segundo tempo!</p> */}
+          <p className="game-details"> - Começa o segundo tempo!</p> */}
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
+            <p className="game-details">⚽ - Gol do Folia </p>
             <p className="game-details">10:53 - Apita o árbitro!</p>
           </div>
         </section>

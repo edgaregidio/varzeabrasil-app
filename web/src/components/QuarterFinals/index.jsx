@@ -44,11 +44,11 @@ export default function QuarterFinals() {
         time={'10h00'}
         nameA={'Lima'}
         teamA={Lima}
-        resultA={''}
-        resultB={''}
+        resultA={'0'}
+        resultB={'1'}
         nameB={'Folia'}
         teamB={Folia}
-        live={'Acompanho o jogo'}
+        live={'Bila '}
         phase={'quartas 3'}
       />
       <CardTable
