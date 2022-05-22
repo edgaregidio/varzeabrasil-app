@@ -16,8 +16,8 @@ export default function SemiFinal() {
       <CardTable
         date={''}
         time={''}
-        nameA={'Tabajara'}
-        teamA={Tabajara}
+        nameA={'Aguardando'}
+        teamA={Shield}
         resultA={''}
         resultB={''}
         nameB={'Aguardando...'}

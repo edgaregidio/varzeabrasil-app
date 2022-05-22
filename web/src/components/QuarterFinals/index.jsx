@@ -36,6 +36,7 @@ export default function QuarterFinals() {
         resultB={''}
         nameB={'Braavos'}
         teamB={Braavos}
+        live={'Bola Rolando'}
         phase={'quartas 2'}
       />
       <CardTable
@@ -47,6 +48,7 @@ export default function QuarterFinals() {
         resultB={''}
         nameB={'Folia'}
         teamB={Folia}
+        live={'Acompanho o jogo'}
         phase={'quartas 3'}
       />
       <CardTable
@@ -58,6 +60,7 @@ export default function QuarterFinals() {
         resultB={''}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
+        // live={'Acompanhe o jogo'}
         phase={'quartas 4'}
       />
     </>
