@@ -18,11 +18,11 @@ export default function Main() {
         <Nav />
         <section className="news">
           <div className="card-news">
-            <span className="game-time">1° Tempo</span>
+            <span className="game-time">2° Tempo</span>
             <div className="row--pre-game">
               <img src={Lima} alt="Tabajara" />
               <h5 className="scoreboard-x">
-                <span className="scoreboard">1</span>x
+                <span className="scoreboard">2</span>x
                 <span className="scoreboard">2</span>
               </h5>
               <img src={Folia} alt="Chopp" />
@@ -42,6 +42,7 @@ export default function Main() {
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
+            <p className="game-details">⚽ - Gol di Lima, mais um empate. </p>
             <p className="game-details">⚽ - Gol do Folia </p>
             <p className="game-details">⚽ - Gol do Lima </p>
             <p className="game-details">⚽ - Gol do Folia </p>

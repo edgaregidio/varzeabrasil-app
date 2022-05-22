@@ -44,7 +44,7 @@ export default function QuarterFinals() {
         time={'10h00'}
         nameA={'Lima'}
         teamA={Lima}
-        resultA={'1'}
+        resultA={'2'}
         resultB={'2'}
         nameB={'Folia'}
         teamB={Folia}
