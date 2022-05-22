@@ -28,7 +28,7 @@ export default function Main() {
               <img src={Folia} alt="Chopp" />
               <h4 className="textFlashes">Bola rolando...</h4>
             </div>
-            /* <h1>que jooogo!</h1>
+            <h1>decisão nos penaltis!</h1>
             {/*<p>
               Duas grandes equipes fazem o terceiro jogo das quartas de final em
   r            jogo único
@@ -41,10 +41,11 @@ export default function Main() {
             {/* <p className="game-details">Fim do primeuro tempo</p> */}
             {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
+            <p className="game-details">Acabou, vamos para os penaltis! </p>
             <p className="game-details">⚽ - Gol do Folia, novo empate! </p>
             <p className="game-details">⚽ - Gol do Lima, virada!. </p>
             <p className="game-details">⚽ - Gol do Lima, mais um empate. </p>
-            <p className="game-details">⚽ - Gol do Folia </p>
+            {/* <p className="game-details">⚽ - Gol do Folia </p> */}
             {/* <p className="game-details">⚽ - Gol do Lima </p> */}
             {/* <p className="game-details">10:53 - Apita o árbitro!</p> */}
           </div>
