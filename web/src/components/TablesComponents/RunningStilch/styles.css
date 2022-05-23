@@ -1,0 +1,40 @@
+.container-running-stilch table {
+  width: 100%;
+  background: #475564;
+  border-radius: 8px;
+}
+
+.container-running-stilch table th,
+.container-running-stilch table td {
+  padding: 0.6rem;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.col-name {
+  background: #3c4957;
+  text-align: left;
+  min-width: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .disable-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .disable-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container-running-stilch {
+    padding: 0;
+  }
+
+  td {
+    font-size: 0.5rem;
+  }
+}

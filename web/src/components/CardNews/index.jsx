@@ -54,11 +54,6 @@ export default function CardNews() {
               <h3>{item.title}</h3>
               <p>{item.description}</p>
             </div>
-            {/* <div>
-              <button className="btn-card-new" type="submit">
-                Ler mais!
-              </button>
-            </div> */}
           </div>
         </div>
       ))}

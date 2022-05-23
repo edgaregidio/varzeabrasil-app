@@ -1,18 +1,14 @@
-import React, { useState } from 'react'
-import { CaretLeft, CaretRight } from 'phosphor-react'
-import Nav from '../../components/Nav'
-import QuarterFinals from '../../components/QuarterFinals'
-import SemiFinal from '../../components/SemiFinal'
-import Final from '../../components/Final'
+import React from 'react'
 import './styles.css'
-import GunnersMain from '../../components/GunnersMain'
+// import GunnersMain from '../../components/GunnersMain'
+import RunningStilch from '../../components/TablesComponents/RunningStilch'
 
-export default function CopaCepro() {
-  const [count, setCount] = useState(2)
+export default function ArenaSoccer() {
+  // const [count, setCount] = useState(2)
   return (
     <div>
       <section className="tables-games">
-        <div className="content-navigation">
+        {/* <div className="content-navigation">
           <CaretLeft
             cursor={'pointer'}
             size={32}
@@ -38,21 +34,29 @@ export default function CopaCepro() {
               setCount(count + 1)
             }}
           />
-        </div>
+        </div> */}
       </section>
 
       <section className="content-page-table">
-        <h1>Tabela</h1>
+        <h1>Classificação 37º Power Ranking - Arena Soccer</h1>
         <div className="games-results">
-          {count === 1 && <QuarterFinals />}
-          {count === 2 && <SemiFinal />}
-          {count === 3 && <Final />}
+          <RunningStilch
+            name={'Times'}
+            games={'J'}
+            victory={'V'}
+            draw={'E'}
+            defeat={'D'}
+            proGoals={'GP'}
+            ownGoals={'GC'}
+            balance={'SG'}
+            proGoalsAverage={'MGP'}
+            AgaintsGolsAverage={'MGC'}
+            use={'%'}
+          />
         </div>
       </section>
 
-      <div className="tables-games">
-        <GunnersMain />
-      </div>
+      <div className="tables-games">{/* <GunnersMain /> */}</div>
     </div>
   )
 }
