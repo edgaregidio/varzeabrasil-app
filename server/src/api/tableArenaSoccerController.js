@@ -275,17 +275,6 @@ const data = [
     use: 100
   },
   {
-    id: 25,
-    name: 'New Castle',
-    games: 4,
-    victory: 2,
-    draw: 1,
-    defeat: 1,
-    proGoals: 24,
-    ownGoals: 23,
-    use: 100
-  },
-  {
     id: 26,
     name: 'New Castle',
     games: 4,
@@ -528,7 +517,7 @@ const data = [
     use: 100
   },
   {
-    id: 47,
+    id: 48,
     name: 'Du Leite',
     games: 1,
     victory: 0,
