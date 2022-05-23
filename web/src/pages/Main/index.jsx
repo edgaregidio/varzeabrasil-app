@@ -29,16 +29,14 @@ export default function Main() {
               <img src={Folia} alt="Folia" />
               {/* <h4 className="textFlashes">Bola rolando...</h4> */}
             </div>
-            <h1>Sorteios definidos!</h1>
+            <h1>Copa Cepro: 2 Confrontos da Semi definidos</h1>
             <p>
               Copa Cepro 2022 tem sorteios e confrontos definidos que serão
               disputados nesse próximo final de semana (28 e 29) no estádio
               Filostro Machado (Arena Muranga).
             </p>
-            <br />
-            <p>Lima FC enfrenta Braavos</p>
-            <br />
-            <p>Tabajara recebe o G. Vila Nova.</p>
+            <p>🎲 Lima FC enfrenta Braavos</p>
+            <p>🎲 Tabajara recebe o G. Vila Nova.</p>
 
             {/* TEMPO REAL  */}
 

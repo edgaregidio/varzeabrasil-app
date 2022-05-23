@@ -59,14 +59,14 @@
 .card-table .teams .team-col img {
   width: 2rem;
   height: auto;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 
 .card-table .teams .results {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 5rem;
+  min-width: 2rem;
   text-align: center;
 }
 
@@ -94,8 +94,11 @@
 }
 
 @media screen and (max-width: 800px) {
+  .card-table {
+    padding: 1rem 0;
+  }
   .card-table h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .card-table .teams .team-col {
@@ -108,7 +111,7 @@
   }
 
   .card-table .teams .team-col img {
-    width: 2rem;
+    width: 1.7rem;
     margin: 0 0.5rem;
   }
 
