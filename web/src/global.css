@@ -13,6 +13,8 @@
   --secondary-color: #87a3bf;
   --bg-color: #09090a;
   --live-color: #06aa48;
+
+  --padding-default: 20%;
 }
 
 html,

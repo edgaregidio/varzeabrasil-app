@@ -1,38 +1,34 @@
 import React from 'react'
 import CardTable from '../CardTable'
 
-// import Lima from '../../assets/lima.png'
-// import Folia from '../../assets/folia.png'
+import Lima from '../../assets/lima.png'
+import Braavos from '../../assets/braavos.png'
 import Tabajara from '../../assets/tabajara.png'
-// import Baxadao from '../../assets/baxadao.png'
-// import Braavos from '../../assets/braavos.png'
-// import Redencao from '../../assets/redencao.png'
-// import GVilaNova from '../../assets/gvilanova.png'
-import Shield from '../../assets/shield.png'
+import GVilaNova from '../../assets/gvilanova.png'
 
 export default function SemiFinal() {
   return (
     <>
       <CardTable
-        date={''}
-        time={''}
-        nameA={'Aguardando'}
-        teamA={Shield}
+        date={'SAB 28/05/2022'}
+        time={'16h00'}
+        nameA={'Lima FC'}
+        teamA={Lima}
         resultA={''}
         resultB={''}
-        nameB={'Aguardando...'}
-        teamB={Shield}
+        nameB={'Braavos'}
+        teamB={Braavos}
         phase={'semi 1'}
       />
       <CardTable
-        date={''}
-        time={''}
-        nameA={'Aguardando...'}
-        teamA={Shield}
+        date={'DOM 29/05/2022'}
+        time={'10h00'}
+        nameA={'Tabajara JR10'}
+        teamA={Tabajara}
         resultA={''}
         resultB={''}
-        nameB={'Aguardando...'}
-        teamB={Shield}
+        nameB={'G. Vila Nova'}
+        teamB={GVilaNova}
         phase={'semi 2'}
       />
     </>

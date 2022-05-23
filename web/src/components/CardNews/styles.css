@@ -1,0 +1,100 @@
+.container-card-news {
+  background: var(--primary-color);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-card-news h1 {
+  font-weight: 300;
+}
+.content-card-news {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.content-card-news img {
+  width: 20rem;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.content-text-card-news {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content-text-card-news h1 {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.content-text-card-news h3 {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.content-text-card-news p {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.content-text-card-news .btn-card-new {
+  background: var(--secondary-color);
+  border: 0;
+  padding: 0.5rem 0.85rem;
+  border-radius: 35px;
+  width: 8rem;
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease all 0.3s;
+}
+
+.content-text-card-news .btn-card-new:hover {
+  background: #fff;
+  color: var(--secondary-color);
+}
+
+/* ===== RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+  .content-news {
+    /* background: red; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .content-card-news,
+  .content-news {
+    display: flex;
+  }
+  .content-card-news {
+    flex-direction: column-reverse;
+  }
+
+  .content-card-news img {
+    background: blue;
+    width: 100%;
+  }
+  .content-text-card-news h3,
+  .content-text-card-news p,
+  .btn-card-new {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 405px) {
+}

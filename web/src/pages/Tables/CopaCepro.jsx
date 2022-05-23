@@ -8,7 +8,7 @@ import './styles.css'
 import GunnersMain from '../../components/GunnersMain'
 
 export default function CopaCepro() {
-  const [count, setCount] = useState(1)
+  const [count, setCount] = useState(2)
   return (
     <div>
       <section className="tables-games" id="#table">
