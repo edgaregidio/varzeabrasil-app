@@ -60,10 +60,7 @@ export default function RunningStilch({
                     {/* <td>{index + 1}</td> */}
                     <td className="col-name no-moving-away2">
                       {index + 1}
-                      &nbsp;
-                      {/* <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p> */}
+                      &nbsp; &nbsp;
                       {item.name}
                     </td>
                     <td className="">{item.games}</td>
