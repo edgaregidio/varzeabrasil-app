@@ -1,7 +1,9 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/'
+  baseURL: 'https://varzeabrasil-app-production.up.railway.app/'
 })
 
 export default api
+
+// https://varzeabrasil-app-production.up.railway.app/
