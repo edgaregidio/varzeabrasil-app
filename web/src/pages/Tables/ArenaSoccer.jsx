@@ -12,7 +12,7 @@ export default function ArenaSoccer() {
         <h1>Classificação 37º Power Ranking - Arena Soccer</h1>
         <div className="games-results">
           <RunningStilch
-            name={'Times'}
+            name={'Classificação'}
             games={'J'}
             victory={'V'}
             draw={'E'}

@@ -38,45 +38,51 @@ export default function RunningStilch({
       {loading ? (
         <Loading />
       ) : (
-        <section className="container-running-stilch">
+        <section className="container-running-stilch scroll-table">
           <div>
-            <table>
+            <table className="full_table_list">
               <thead>
-                <th></th>
-                <th className="col-name">{name}</th>
-                <th>{games}</th>
-                <th>{victory}</th>
-                <th className="disable-media">{draw}</th>
-                <th className="disable-media">{defeat}</th>
-                <th className="disable-media">{proGoals}</th>
-                <th className="disable-media">{ownGoals}</th>
+                <th className="col-name no-moving-away">{name}</th>
+                <th className="">{games}</th>
+                <th className="">{victory}</th>
+                <th className="">{draw}</th>
+                <th className=" ">{defeat}</th>
+                <th className=" ">{proGoals}</th>
+                <th className=" ">{ownGoals}</th>
                 <th>{balance}</th>
-                <th className="disable-media">{proGoalsAverage}</th>
-                <th className="disable-media">{AgaintsGolsAverage}</th>
+                <th className=" ">{proGoalsAverage}</th>
+                <th className=" ">{AgaintsGolsAverage}</th>
                 <th>{use}</th>
               </thead>
-              {order.map((item, index) => (
-                <tbody>
+              <tbody className="bosta">
+                {order.map((item, index) => (
                   <tr>
-                    <td>{index + 1}</td>
-                    <td className="col-name">{item.name}</td>
-                    <td>{item.games}</td>
+                    {/* <td>{index + 1}</td> */}
+                    <td className="col-name no-moving-away2">
+                      {index + 1}
+                      &nbsp;
+                      {/* <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p> */}
+                      {item.name}
+                    </td>
+                    <td className="">{item.games}</td>
                     <td>{item.victory}</td>
-                    <td className="disable-media">{item.draw}</td>
-                    <td className="disable-media">{item.defeat}</td>
-                    <td className="disable-media">{item.proGoals}</td>
-                    <td className="disable-media">{item.ownGoals}</td>
+                    <td className="">{item.draw}</td>
+                    <td className="">{item.defeat}</td>
+                    <td className="">{item.proGoals}</td>
+                    <td className="">{item.ownGoals}</td>
                     <td>{item.proGoals - item.ownGoals}</td>
-                    <td className="disable-media">
+                    <td className="">
                       {(item.proGoals / item.games).toFixed(1)}
                     </td>
-                    <td className="disable-media">
+                    <td className="">
                       {(item.ownGoals / item.games).toFixed(1)}
                     </td>
                     <td>{}%</td>
                   </tr>
-                </tbody>
-              ))}
+                ))}
+              </tbody>
             </table>
           </div>
         </section>

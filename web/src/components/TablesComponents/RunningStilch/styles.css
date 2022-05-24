@@ -1,31 +1,100 @@
 .container-running-stilch table {
   width: 100%;
-  /* background: #475564; */
   border-radius: 8px;
+  border-spacing: 1px;
+  border-collapse: collapse;
 }
 
-.container-running-stilch table th,
-.container-running-stilch table td {
-  padding: 0.6rem;
+.container-running-stilch table th {
+  padding: 0.5rem;
   text-align: center;
-  border-bottom: 1px solid white;
+}
+.container-running-stilch table td {
+  padding: 0.5rem;
+  text-align: center;
+  /* border-bottom: 1px solid white; */
+}
+
+.scroll-table::-webkit-scrollbar {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  object-fit: cover;
 }
 
 .col-name {
-  background: #3c4957;
+  display: flex;
+  /* background: #3c4957; */
   text-align: left;
   min-width: 1rem;
 }
 
+/*css global tabela*/
+.full_table_list {
+  width: 200px;
+  border-collapse: collapse;
+}
+
+/*colocando bordas nas linhas*/
+.full_table_list td {
+  /* border: 1px black solid; */
+}
+
+/*Definido cor das linhas pares*/
+.full_table_list tr:nth-child(even) {
+  background: #333c46;
+}
+
+/*Definindo cor das Linhas impáres*/
+.full_table_list tr:nth-child(odd) {
+  background: rgb(60, 73, 87);
+}
+
+/* tr:hover {
+  background-color: #000;
+  color: #fff;
+} */
+
 @media screen and (max-width: 1024px) {
-  .disable-media {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 800px) {
-  .disable-media {
-    display: none;
+  .scroll-table {
+    overflow: hidden;
+    overflow-x: scroll;
+    object-fit: cover;
+  }
+
+  table {
+  }
+
+  td,
+  th {
+    position: relative;
+    left: 9.8rem;
+    z-index: 1;
+    background: #333c46;
+    /* border-bottom: 1px solid white; */
+  }
+
+  td {
+    font-size: 0.7rem;
+  }
+
+  .no-moving-away,
+  .no-moving-away2 {
+    /* position: fixed; */
+    position: absolute;
+    left: 1.4rem;
+  }
+
+  .col-name {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;
+    min-width: 10rem;
+    background: rgba(60, 73, 87, 0.98);
+    z-index: 5;
   }
 }
 
