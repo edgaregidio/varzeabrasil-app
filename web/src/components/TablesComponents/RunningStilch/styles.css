@@ -6,7 +6,7 @@
 }
 
 .container-running-stilch table th {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   text-align: center;
 }
 .container-running-stilch table td {
@@ -23,9 +23,12 @@
 
 .col-name {
   display: flex;
-  /* background: #3c4957; */
   text-align: left;
-  min-width: 1rem;
+  margin: 0;
+}
+
+thead {
+  background: #28313a;
 }
 
 /*css global tabela*/
@@ -48,11 +51,6 @@
 .full_table_list tr:nth-child(odd) {
   background: rgb(60, 73, 87);
 }
-
-/* tr:hover {
-  background-color: #000;
-  color: #fff;
-} */
 
 @media screen and (max-width: 1024px) {
 }
@@ -84,23 +82,42 @@
     left: 1.4rem;
   }
 
+  thead {
+    background: #28313a;
+  }
+
   .col-name {
     display: flex;
     align-items: center;
     overflow-x: hidden;
     position: absolute;
     min-width: 10rem;
-    background: rgba(60, 73, 87, 0.98);
+    /* background: rgba(60, 73, 87, 0.98); */
     z-index: 5;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 370px) {
   .container-running-stilch {
     padding: 0;
   }
 
   td {
     font-size: 0.5rem;
+  }
+
+  td {
+    width: 3rem;
+  }
+
+  .no-moving-away,
+  .no-moving-away2 {
+    left: 0.5rem;
+    max-width: 1rem;
+    border-collapse: collapse;
+  }
+
+  .full_table_list {
+    margin-top: 0.2rem;
   }
 }

@@ -54,7 +54,7 @@ export default function RunningStilch({
                 <th className=" ">{AgaintsGolsAverage}</th>
                 <th>{use}</th>
               </thead>
-              <tbody className="bosta">
+              <tbody>
                 {order.map((item, index) => (
                   <tr>
                     {/* <td>{index + 1}</td> */}
