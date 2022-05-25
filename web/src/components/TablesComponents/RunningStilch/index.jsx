@@ -43,40 +43,42 @@ export default function RunningStilch({
             <table className="full_table_list">
               <thead>
                 <th className="col-name no-moving-away">{name}</th>
-                <th className="">{games}</th>
-                <th className="">{victory}</th>
-                <th className="">{draw}</th>
-                <th className=" ">{defeat}</th>
-                <th className=" ">{proGoals}</th>
-                <th className=" ">{ownGoals}</th>
-                <th>{balance}</th>
-                <th className=" ">{proGoalsAverage}</th>
-                <th className=" ">{AgaintsGolsAverage}</th>
-                <th>{use}</th>
+                <th className="no-moving-away2">{games}</th>
+                <th className="no-moving-away2">{victory}</th>
+                <th className="no-moving-away2">{draw}</th>
+                <th className="no-moving-away2">{defeat}</th>
+                <th className="no-moving-away2">{proGoals}</th>
+                <th className="no-moving-away2">{ownGoals}</th>
+                <th className="no-moving-away2">{balance}</th>
+                <th className="no-moving-away2">{proGoalsAverage}</th>
+                <th className="no-moving-away2">{AgaintsGolsAverage}</th>
+                <th className="no-moving-away2">{use}</th>
               </thead>
               <tbody>
                 {order.map((item, index) => (
                   <tr>
                     {/* <td>{index + 1}</td> */}
-                    <td className="col-name no-moving-away2">
+                    <td className="col-name no-moving-away">
                       {index + 1}
                       &nbsp; &nbsp;
                       {item.name}
                     </td>
-                    <td className="">{item.games}</td>
-                    <td>{item.victory}</td>
-                    <td className="">{item.draw}</td>
-                    <td className="">{item.defeat}</td>
-                    <td className="">{item.proGoals}</td>
-                    <td className="">{item.ownGoals}</td>
-                    <td>{item.proGoals - item.ownGoals}</td>
-                    <td className="">
+                    <td className="no-moving-away2">{item.games}</td>
+                    <td className="no-moving-away2">{item.victory}</td>
+                    <td className="no-moving-away2">{item.draw}</td>
+                    <td className="no-moving-away2">{item.defeat}</td>
+                    <td className="no-moving-away2">{item.proGoals}</td>
+                    <td className="no-moving-away2">{item.ownGoals}</td>
+                    <td className="no-moving-away2">
+                      {item.proGoals - item.ownGoals}
+                    </td>
+                    <td className="no-moving-away2">
                       {(item.proGoals / item.games).toFixed(1)}
                     </td>
-                    <td className="">
+                    <td className="no-moving-away2">
                       {(item.ownGoals / item.games).toFixed(1)}
                     </td>
-                    <td>{}%</td>
+                    <td className="no-moving-away2">{}%</td>
                   </tr>
                 ))}
               </tbody>

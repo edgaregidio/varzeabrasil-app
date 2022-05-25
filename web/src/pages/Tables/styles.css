@@ -103,14 +103,17 @@
     height: auto !important;
     padding: 2rem 0;
   }
+
   .tables-camps h1 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
+
   .content-page-tables {
     padding: 0;
   }
+
   .content-navigation {
     margin: 0;
     padding: 0;
@@ -121,17 +124,27 @@
     padding: 0 1rem;
     margin-bottom: 1.5rem;
   }
+
   .content-back h1 {
     margin: 0;
     font-size: 1.5rem;
   }
-  .content-page-table .games-results {
-    padding: 1rem;
+
+  .content-page-tables .games-results {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    height: auto;
+  }
+
+  .games-results-alt .games-results {
+    background: red;
+    padding: 1rem 0;
   }
 }
 
 @media screen and (max-width: 370px) {
-  .content-page-table .games-results {
+  .content-page-tables .games-results {
     padding: 0;
   }
 }

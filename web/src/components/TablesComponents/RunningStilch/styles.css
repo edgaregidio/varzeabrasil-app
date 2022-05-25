@@ -65,21 +65,12 @@ thead {
   td,
   th {
     position: relative;
-    left: 9.8rem;
     z-index: 1;
     background: #333c46;
-    /* border-bottom: 1px solid white; */
   }
 
   td {
     font-size: 0.7rem;
-  }
-
-  .no-moving-away,
-  .no-moving-away2 {
-    /* position: fixed; */
-    position: absolute;
-    left: 1.4rem;
   }
 
   thead {
@@ -90,37 +81,27 @@ thead {
     display: flex;
     align-items: center;
     overflow-x: hidden;
-    position: absolute;
+    position: relative;
     min-width: 10rem;
     background: rgba(60, 73, 87, 0.98);
     z-index: 5;
   }
+
+  .no-moving-away {
+    position: absolute;
+  }
+  .no-moving-away2 {
+    position: relative;
+    left: 10rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
-  .container-running-stilch {
-    padding: 0;
-  }
   .col-name {
-    background: rgba(60, 73, 87, 0.98);
+    min-width: 8.5rem;
   }
-
-  td {
-    font-size: 0.5rem;
-  }
-
-  td {
-    width: 3rem;
-  }
-
-  .no-moving-away,
   .no-moving-away2 {
-    left: 0.5rem;
-    max-width: 1rem;
-    border-collapse: collapse;
-  }
-
-  .full_table_list {
-    margin-top: 0.2rem;
+    position: relative;
+    left: 8.5rem;
   }
 }
