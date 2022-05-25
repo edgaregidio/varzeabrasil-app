@@ -22,9 +22,9 @@ export default function Nav() {
             <Icon icon="system-uicons:newspaper" className="nav-logo-icon" />
             <span className="nav-link-name">Notícias</span>
           </Link>
-          <Link to="/asdasdasdas" className="nav-link">
-            <Icon icon="system-uicons:table-header" className="nav-logo-icon" />
-            <span className="nav-link-name">Hotel</span>
+          <Link to="/contact" className="nav-link">
+            <Icon icon="system-uicons:mail" className="nav-logo-icon" />
+            <span className="nav-link-name">Contato</span>
           </Link>
         </div>
       </div>
