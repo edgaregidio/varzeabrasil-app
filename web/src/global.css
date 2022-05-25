@@ -10,9 +10,26 @@
 
 :root {
   --primary-color: #2d3844;
+  --primary-side-bar: #262f38;
   --secondary-color: #87a3bf;
+  --secondary-color-alt-light: #afc0d3;
   --bg-color: #09090a;
   --live-color: #06aa48;
+
+  /*  */
+  /*==========  */
+  /*  */
+
+  --sidebar-color: #f10086;
+  --sidebar-color-alt-light: #f582a7;
+  --white-color: #ffddee;
+
+  --header-height: 3rem;
+  --nav-width: 68px;
+
+  /*  */
+  /* ========= */
+  /*  */
 
   --padding-default: 20%;
 }
@@ -45,5 +62,9 @@ html {
 
 a {
   text-decoration: none;
+  list-style: none;
+}
+
+ul {
   list-style: none;
 }

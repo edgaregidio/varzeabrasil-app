@@ -8,7 +8,7 @@ export default function ArenaSoccer() {
     <div>
       <section className="tables-games"></section>
 
-      <section className="content-page-table">
+      <section className="content-page-tables">
         <h1>Classificação 37º Power Ranking - Arena Soccer</h1>
         <div className="games-results">
           <RunningStilch

@@ -17,11 +17,11 @@ export default function Final() {
       <CardTable
         date={''}
         time={''}
-        nameA={'Sorteio'}
+        nameA={'Vencedor 1'}
         teamA={Shield}
         resultA={''}
         resultB={''}
-        nameB={'Sorteio'}
+        nameB={'Vencedor 2'}
         teamB={Shield}
         phase={'Final'}
       />

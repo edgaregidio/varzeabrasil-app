@@ -4,19 +4,19 @@ import SemiFinal from '../../components/SemiFinal'
 import GunnersMain from '../../components/GunnersMain'
 import './styles.css'
 import Nav from '../../components/Nav'
-import Ball from '../../assets/ball.png'
 
 import Lima from '../../assets/lima.png'
 import Folia from '../../assets/folia.png'
 import CardNews from '../../components/CardNews'
+import Siderbar from '../../components/Siderbar'
 
 export default function Main() {
   const navigate = useNavigate()
 
   return (
-    <>
+    <div>
+      {/* <Siderbar /> */}
       <div className="container-default">
-        <Nav />
         <section className="news">
           <div className="card-news">
             {/* <span className="game-time">Classificado</span> */}
@@ -80,6 +80,6 @@ export default function Main() {
         </section>
         <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
       </div>
-    </>
+    </div>
   )
 }

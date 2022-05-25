@@ -1,18 +1,78 @@
-nav {
-  background: var(--primary-color);
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100%;
+  z-index: 999;
 }
 
-nav img {
-  width: 15rem;
-  padding: 2rem 0;
+.nav-logo,
+.nav-link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 2rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.nav-logo {
+  margin-bottom: 2rem;
+}
+
+.nav-logo-icon {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
   cursor: pointer;
 }
+
+.nav-logo-name {
+  font-weight: 700;
+  color: var(--secondary-color-alt-light);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: var(--secondary-color-alt-light);
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color-alt-light);
+}
+
+.nav-link svg {
+  transition: ease 0.3s;
+}
+
+.nav-link svg:hover {
+  color: var(--secondary-color-alt-light);
+  /* background-color: red; */
+}
+
+/* .active {
+  color: var(blue);
+  background-color: black;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2.375rem;
+  width: 3px;
+  background-color: var(--sidebar-secondary-color);
+  transition: 0.5s;
+} */
+
+/* ====== RESPONSIVE */
+
 @media screen and (max-width: 1024px) {
-  nav {
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 800px) {

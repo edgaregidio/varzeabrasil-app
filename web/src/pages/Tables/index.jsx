@@ -1,4 +1,4 @@
-import { IconContext, CaretLeft, CodesandboxLogo } from 'phosphor-react'
+import { Icon } from '@iconify/react'
 import React, { useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import Nav from '../../components/Nav'
@@ -11,19 +11,13 @@ export default function Tables() {
   return (
     <>
       <div className="container-default" id="teste">
-        <Nav />
         <section className="tables-camps">
           <div className="content-back">
-            <IconContext.Provider
-              value={{
-                color: 'var(--secondary-color)',
-                size: 32,
-                weight: 'bold',
-                cursor: 'pointer'
-              }}
-            >
-              <CaretLeft onClick={() => navigate('/tables')} />
-            </IconContext.Provider>
+            <Icon
+              icon="system-uicons:chevron-left"
+              style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
+              onClick={() => navigate('/tables')}
+            />
             <h1>Selecione um campeonato</h1>
           </div>
           <Supplier />

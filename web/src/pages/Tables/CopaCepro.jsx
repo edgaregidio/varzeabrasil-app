@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CaretLeft, CaretRight } from 'phosphor-react'
+import { Icon } from '@iconify/react'
 import Nav from '../../components/Nav'
 import QuarterFinals from '../../components/QuarterFinals'
 import SemiFinal from '../../components/SemiFinal'
@@ -10,12 +10,13 @@ import GunnersMain from '../../components/GunnersMain'
 export default function CopaCepro() {
   const [count, setCount] = useState(2)
   return (
-    <div>
+    <div className="content-page-tables">
+      <h1>Copa Cepro 2022 1º Temporada</h1>
       <section className="tables-games">
         <div className="content-navigation">
-          <CaretLeft
-            cursor={'pointer'}
-            size={32}
+          <Icon
+            icon="system-uicons:chevron-left"
+            style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
             onClick={() => {
               if (count <= 1) {
                 return null
@@ -24,13 +25,13 @@ export default function CopaCepro() {
                 setCount(count - 1)
               }
             }}
-          ></CaretLeft>
+          />
           {count === 1 && <h1>Quartas de Final</h1>}
           {count === 2 && <h1>Semi Final</h1>}
           {count === 3 && <h1>Final</h1>}
-          <CaretRight
-            cursor={'pointer'}
-            size={32}
+          <Icon
+            icon="system-uicons:chevron-right"
+            style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
             onClick={() => {
               if (count >= 3) {
                 return null
@@ -40,7 +41,6 @@ export default function CopaCepro() {
           />
         </div>
       </section>
-
       <section className="content-page-table">
         <h1>Tabela</h1>
         <div className="games-results">

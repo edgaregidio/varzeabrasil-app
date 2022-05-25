@@ -133,13 +133,9 @@ ordened.forEach((player, index) => {
 // console.log(mapped)
 
 export default function GunnersMain() {
-  const photo =
-    'https://i.pinimg.com/564x/bf/2c/d3/bf2cd3e35b1c81096c4567fbab465abb.jpg'
   return (
     <div className="container-table-gunners">
       <h2>Copa Cepro</h2>
-
-      {console.log(photo)}
 
       <div className="content-table-gunners">
         <h1>Principais Artilheros</h1>

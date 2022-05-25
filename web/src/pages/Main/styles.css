@@ -3,12 +3,20 @@ footer,
 /* .news, */
 .tables,
 .tables-camps,
-.tables-games,
-.content-page-table,
+/* .tables-games, */
+/* .content-page-table, */
+.content-page-tables,
+.content-page-copacepro,
 .container-table-gunners .news {
   padding: 0 20%;
   display: flex;
   gap: 0.5rem;
+}
+
+.bosta {
+  display: flex;
+  flex-direction: column;
+  background: red;
 }
 
 .container-default {
@@ -26,6 +34,7 @@ footer,
   height: 35rem;
   position: relative;
   overflow: hidden;
+  z-index: -1;
 }
 
 .news .card-news:before {
