@@ -129,6 +129,10 @@
     width: 2rem;
     height: 2rem;
   }
+
+  .tables-games {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 405px) {

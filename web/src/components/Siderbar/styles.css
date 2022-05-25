@@ -63,6 +63,9 @@ main {
   .logo-vb {
     right: 28%;
   }
+  .header {
+    height: 4.2rem;
+  }
 }
 @media screen and (max-width: 370px) {
   .logo-vb {

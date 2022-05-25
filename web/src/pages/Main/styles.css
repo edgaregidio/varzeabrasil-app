@@ -329,7 +329,14 @@ footer {
     padding: 0;
   }
 
+  .tables {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+  }
+
   .container-table {
+    padding: 0;
     display: flex;
     flex-direction: column;
   }
@@ -382,12 +389,6 @@ footer {
     width: 90%;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-  }
-
-  .tables {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
   }
 
   .button-table a {

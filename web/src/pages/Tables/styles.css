@@ -108,6 +108,13 @@
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
+  .content-page-tables {
+    padding: 0;
+  }
+  .content-navigation {
+    margin: 0;
+    padding: 0;
+  }
 
   .content-back {
     justify-content: center;

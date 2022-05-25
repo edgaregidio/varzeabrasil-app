@@ -12,7 +12,7 @@ export default function CopaCepro() {
   return (
     <div className="content-page-tables">
       <h1>Copa Cepro 2022 1º Temporada</h1>
-      <section className="tables-games">
+      <section className="">
         <div className="content-navigation">
           <Icon
             icon="system-uicons:chevron-left"
@@ -50,7 +50,7 @@ export default function CopaCepro() {
         </div>
       </section>
 
-      <div className="tables-games">
+      <div className="">
         <GunnersMain />
       </div>
     </div>
