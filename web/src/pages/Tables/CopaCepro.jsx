@@ -16,7 +16,11 @@ export default function CopaCepro() {
         <div className="content-navigation">
           <Icon
             icon="system-uicons:chevron-left"
-            style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
+            style={{
+              fontSize: '2rem',
+              color: 'var(--secondary-color)',
+              cursor: 'pointer'
+            }}
             onClick={() => {
               if (count <= 1) {
                 return null
@@ -31,7 +35,11 @@ export default function CopaCepro() {
           {count === 3 && <h1>Final</h1>}
           <Icon
             icon="system-uicons:chevron-right"
-            style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
+            style={{
+              fontSize: '2rem',
+              color: 'var(--secondary-color)',
+              cursor: 'pointer'
+            }}
             onClick={() => {
               if (count >= 3) {
                 return null

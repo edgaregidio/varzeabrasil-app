@@ -15,7 +15,11 @@ export default function Tables() {
           <div className="content-back">
             <Icon
               icon="system-uicons:chevron-left"
-              style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}
+              style={{
+                fontSize: '2rem',
+                color: 'var(--secondary-color)',
+                cursor: 'pointer'
+              }}
               onClick={() => navigate('/tables')}
             />
             <h1>Selecione um campeonato</h1>
