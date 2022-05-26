@@ -94,6 +94,13 @@ export default function RunningStilch({
                 position="absolute"
                 minWidth="11.5rem"
                 zIndex="-1"
+                color={
+                  index < 17
+                    ? '#1737FE'
+                    : index < 25
+                    ? 'var(--primary-color-text)'
+                    : '#999999'
+                }
               >
                 {' '}
                 {index + 1}
