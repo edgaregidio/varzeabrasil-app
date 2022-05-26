@@ -1,4 +1,8 @@
-.container-running-stilch table {
+/* .container-running-stilch {
+  position: relative;
+} */
+
+/* .container-running-stilch table {
   width: 100%;
   border-radius: 8px;
   border-spacing: 1px;
@@ -12,7 +16,7 @@
 .container-running-stilch table td {
   padding: 0.5rem;
   text-align: center;
-  /* border-bottom: 1px solid white; */
+  border-top: 1px solid var(--border-color);
 }
 
 .scroll-table::-webkit-scrollbar {
@@ -21,87 +25,96 @@
   object-fit: cover;
 }
 
+.col-colors {
+  color: #444;
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
 .col-name {
   display: flex;
   text-align: left;
   margin: 0;
+  font-size: 1rem;
+  color: #444;
 }
 
 thead {
-  background: #28313a;
-}
+  position: relative;
+  color: black;
+} */
 
 /*css global tabela*/
-.full_table_list {
+/* .full_table_list {
   width: 200px;
   border-collapse: collapse;
-}
+} */
 
 /*colocando bordas nas linhas*/
-.full_table_list td {
-  /* border: 1px black solid; */
-}
+/* .full_table_list td {
+  color: black;
+} */
 
 /*Definido cor das linhas pares*/
-.full_table_list tr:nth-child(even) {
-  background: #333c46;
-}
+/* .full_table_list tr:nth-child(even) {
+  background: #c9c9c9;
+} */
 
 /*Definindo cor das Linhas impáres*/
-.full_table_list tr:nth-child(odd) {
-  background: rgb(60, 73, 87);
-}
+/* .full_table_list tr:nth-child(odd) {
+  background: #dadada;
+} */
 
 @media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 800px) {
-  .scroll-table {
+  /* .scroll-table {
     overflow: hidden;
     overflow-x: scroll;
     object-fit: cover;
+    position: relative;
   }
 
   td,
   th {
     position: relative;
     z-index: 1;
-    background: #333c46;
   }
 
   td {
     font-size: 0.7rem;
   }
 
-  thead {
-    background: #28313a;
-  }
-
   .col-name {
     display: flex;
     align-items: center;
     overflow-x: hidden;
-    position: relative;
-    min-width: 10rem;
-    background: rgba(60, 73, 87, 0.98);
+    min-width: 11.5rem;
+    background: rgba(241, 241, 241, 0.98);
+    font-weight: 600;
     z-index: 5;
+  }
+
+  .container-running-stilch table td {
+    font-size: 0.9rem;
+    position: relative;
   }
 
   .no-moving-away {
     position: absolute;
+    background: yellow;
   }
   .no-moving-away2 {
     position: relative;
-    left: 10rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 370px) {
-  .col-name {
+  /* .col-name {
     min-width: 8.5rem;
   }
   .no-moving-away2 {
-    position: relative;
     left: 8.5rem;
-  }
+  } */
 }

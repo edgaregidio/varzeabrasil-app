@@ -13,12 +13,6 @@ footer,
   gap: 0.5rem;
 }
 
-.bosta {
-  display: flex;
-  flex-direction: column;
-  background: red;
-}
-
 .container-default {
   min-height: 100vh;
 }
@@ -189,6 +183,7 @@ footer,
   text-align: left;
   left: var(--padding-default);
   top: 12rem;
+  color: white;
   text-shadow: 2px 2px 10px #000;
   z-index: 4;
 }
@@ -294,7 +289,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-color);
+  background: var(--primary-color-nav);
+  color: white;
   padding: 3rem;
   margin-top: 2rem;
   text-align: center;

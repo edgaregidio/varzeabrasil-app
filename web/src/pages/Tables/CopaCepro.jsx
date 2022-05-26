@@ -18,7 +18,7 @@ export default function CopaCepro() {
             icon="system-uicons:chevron-left"
             style={{
               fontSize: '2rem',
-              color: 'var(--secondary-color)',
+              color: 'white',
               cursor: 'pointer'
             }}
             onClick={() => {
@@ -37,7 +37,7 @@ export default function CopaCepro() {
             icon="system-uicons:chevron-right"
             style={{
               fontSize: '2rem',
-              color: 'var(--secondary-color)',
+              color: 'white',
               cursor: 'pointer'
             }}
             onClick={() => {
@@ -51,7 +51,7 @@ export default function CopaCepro() {
       </section>
       <section className="content-page-table">
         <h1>Tabela</h1>
-        <div className="games-results">
+        <div className="games-results-alt">
           {count === 1 && <QuarterFinals />}
           {count === 2 && <SemiFinal />}
           {count === 3 && <Final />}

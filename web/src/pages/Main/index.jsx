@@ -17,7 +17,7 @@ export default function Main() {
   return (
     <div>
       {/* <Siderbar /> */}
-      <div className="container-default">
+      <div className="">
         <section className="news">
           <div className="card-news">
             {/* <span className="game-time">Classificado</span> */}

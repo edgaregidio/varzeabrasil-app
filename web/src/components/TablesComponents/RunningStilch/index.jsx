@@ -1,6 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import api from '../../../api'
 import Loading from '../../Loading'
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  TableCaption,
+  TableContainer
+} from '@chakra-ui/react'
 
 import './styles.css'
 
@@ -34,58 +45,102 @@ export default function RunningStilch({
   })
 
   return (
-    <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <section className="container-running-stilch scroll-table">
-          <div>
-            <table className="full_table_list">
-              <thead>
-                <th className="col-name no-moving-away">{name}</th>
-                <th className="no-moving-away2">{games}</th>
-                <th className="no-moving-away2">{victory}</th>
-                <th className="no-moving-away2">{draw}</th>
-                <th className="no-moving-away2">{defeat}</th>
-                <th className="no-moving-away2">{proGoals}</th>
-                <th className="no-moving-away2">{ownGoals}</th>
-                <th className="no-moving-away2">{balance}</th>
-                <th className="no-moving-away2">{proGoalsAverage}</th>
-                <th className="no-moving-away2">{AgaintsGolsAverage}</th>
-                <th className="no-moving-away2">{use}</th>
-              </thead>
-              <tbody>
-                {order.map((item, index) => (
-                  <tr>
-                    {/* <td>{index + 1}</td> */}
-                    <td className="col-name no-moving-away">
-                      {index + 1}
-                      &nbsp; &nbsp;
-                      {item.name}
-                    </td>
-                    <td className="no-moving-away2">{item.games}</td>
-                    <td className="no-moving-away2">{item.victory}</td>
-                    <td className="no-moving-away2">{item.draw}</td>
-                    <td className="no-moving-away2">{item.defeat}</td>
-                    <td className="no-moving-away2">{item.proGoals}</td>
-                    <td className="no-moving-away2">{item.ownGoals}</td>
-                    <td className="no-moving-away2">
-                      {item.proGoals - item.ownGoals}
-                    </td>
-                    <td className="no-moving-away2">
-                      {(item.proGoals / item.games).toFixed(1)}
-                    </td>
-                    <td className="no-moving-away2">
-                      {(item.ownGoals / item.games).toFixed(1)}
-                    </td>
-                    <td className="no-moving-away2">{}%</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
-    </>
+    <TableContainer zIndex="-1">
+      <Table size="sm">
+        <Thead>
+          <Tr>
+            <Th zIndex="-1" bg="white" position="absolute" minWidth="11.5rem">
+              {name}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {games}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {victory}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {draw}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {defeat}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {proGoals}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {ownGoals}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {balance}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {proGoalsAverage}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {AgaintsGolsAverage}
+            </Th>
+            <Th zIndex="-2" position="relative" left="11.5rem">
+              {use}
+            </Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          {console.log(order)}
+          {order.map((item, index) => (
+            <Tr bg="">
+              <Td
+                // zIndex="1"
+                bg={'#f9f9f9'}
+                position="absolute"
+                minWidth="11.5rem"
+                zIndex="-1"
+              >
+                {' '}
+                {index + 1}
+                &nbsp; &nbsp;
+                {item.name}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.games}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.victory}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.draw}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.defeat}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.proGoals}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.ownGoals}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {item.proGoals - item.ownGoals}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {(item.proGoals / item.games).toFixed(1)}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {(item.ownGoals / item.games).toFixed(1)}
+              </Td>
+              <Td zIndex="-2" position="relative" left="11.5rem">
+                {}%
+              </Td>
+            </Tr>
+          ))}
+        </Tbody>
+        {/* <Tfoot>
+            <Tr>
+              <Th>To convert</Th>
+              <Th>into</Th>
+              <Th isNumeric>multiply by</Th>
+            </Tr>
+          </Tfoot> */}
+      </Table>
+    </TableContainer>
   )
 }

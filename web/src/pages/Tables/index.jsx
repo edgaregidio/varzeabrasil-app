@@ -1,7 +1,6 @@
 import { Icon } from '@iconify/react'
-import React, { useState } from 'react'
+import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
-import Nav from '../../components/Nav'
 import Supplier from '../../components/Supplier'
 
 import './styles.css'
@@ -10,14 +9,14 @@ export default function Tables() {
   const navigate = useNavigate()
   return (
     <>
-      <div className="container-default" id="teste">
+      <div className="container-default">
         <section className="tables-camps">
           <div className="content-back">
             <Icon
               icon="system-uicons:chevron-left"
               style={{
                 fontSize: '2rem',
-                color: 'var(--secondary-color)',
+                color: 'var(--primary-color-text)',
                 cursor: 'pointer'
               }}
               onClick={() => navigate('/tables')}

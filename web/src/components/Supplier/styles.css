@@ -10,9 +10,9 @@
   padding: 0;
   height: 2rem;
   margin-left: 1rem;
-  color: var(--secondary-color);
+  color: white;
   border: 0;
-  background: var(--primary-color);
+  background: var(--primary-color-nav);
   width: 12rem;
   border-radius: 4px;
   text-align: center;
@@ -23,17 +23,16 @@
 
 button:hover {
   color: var(--primary-color);
-  background: var(--secondary-color);
   text-align: center;
 }
 
 .container-supplier button:hover {
-  background: var(--secondary-color);
+  filter: brightness(0.9);
 }
 
 .container-supplier select {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: var(--primary-color-nav);
+  color: white;
   border: 0;
   width: 50%;
   height: 2rem;
@@ -60,7 +59,7 @@ button:hover {
 
   .container-supplier button {
     width: 40%;
-    color: var(--secondary-color);
+    color: white;
     font-size: 1.2rem;
     height: 3rem;
   }
