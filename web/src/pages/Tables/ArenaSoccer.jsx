@@ -47,7 +47,7 @@ export default function ArenaSoccer() {
 
       <section className="news-arena">
         <span className="title-news">
-          Lider disparado da 37º Power Ranking Arena Soccer!
+          Briga pela liderança da 37º Power Ranking Arena Soccer!
           <p>Tupamaros bate o time da Holanda por 11 a 9</p>
         </span>
         <img src={Tupamaros} alt="Foto do time Tupamaros" />
