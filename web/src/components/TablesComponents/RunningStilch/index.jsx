@@ -105,7 +105,7 @@ export default function RunningStilch({
                       : '#999999'
                   }
                 >
-                  {' '}
+                  {/* {item.id === 4 && <Icon icon="ant-design:star-filled" />} */}
                   {index + 1}
                   &nbsp; &nbsp;
                   {item.name}

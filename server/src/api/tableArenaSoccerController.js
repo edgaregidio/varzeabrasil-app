@@ -1,17 +1,61 @@
 const data = [
   {
     id: 1,
+    name: 'Bope',
+    games: 11,
+    victory: 8,
+    draw: 0,
+    defeat: 3,
+    proGoals: 94,
+    ownGoals: 61,
+    use: 73
+  },
+  {
+    id: 2,
     name: 'Tupamaros',
+    games: 10,
+    victory: 8,
+    draw: 0,
+    defeat: 2,
+    proGoals: 72,
+    ownGoals: 56,
+    use: 80
+  },
+  {
+    id: 3,
+    name: 'Alteza Real',
+    games: 10,
+    victory: 7,
+    draw: 3,
+    defeat: 0,
+    proGoals: 70,
+    ownGoals: 48,
+    use: 70
+  },
+  {
+    id: 4,
+    name: 'Goiânia Estrela',
     games: 9,
     victory: 7,
     draw: 0,
     defeat: 2,
-    proGoals: 61,
-    ownGoals: 47,
+    proGoals: 60,
+    ownGoals: 49,
     use: 78
   },
   {
-    id: 2,
+    id: 5,
+    name: 'Mais Som AC',
+    games: 12,
+    victory: 6,
+    draw: 2,
+    defeat: 4,
+    proGoals: 91,
+    ownGoals: 76,
+    use: 50
+  },
+  {
+    id: 6,
     name: 'Spartanos',
     games: 10,
     victory: 6,
@@ -19,142 +63,109 @@ const data = [
     defeat: 3,
     proGoals: 56,
     ownGoals: 43,
-    use: 100
-  },
-  {
-    id: 3,
-    name: 'Bope',
-    games: 9,
-    victory: 6,
-    draw: 0,
-    defeat: 3,
-    proGoals: 80,
-    ownGoals: 50,
-    use: 100
-  },
-  {
-    id: 4,
-    name: 'Alteza Real',
-    games: 8,
-    victory: 6,
-    draw: 2,
-    defeat: 0,
-    proGoals: 49,
-    ownGoals: 31,
-    use: 100
-  },
-  {
-    id: 5,
-    name: 'Deportivo',
-    games: 8,
-    victory: 6,
-    draw: 1,
-    defeat: 1,
-    proGoals: 58,
-    ownGoals: 41,
-    use: 100
-  },
-  {
-    id: 6,
-    name: 'Goiânia Estrela',
-    games: 8,
-    victory: 6,
-    draw: 0,
-    defeat: 2,
-    proGoals: 50,
-    ownGoals: 42,
-    use: 100
+    use: 60
   },
   {
     id: 7,
-    name: 'Mais Som AC',
+    name: 'Deportivo',
+    games: 9,
+    victory: 6,
+    draw: 1,
+    defeat: 2,
+    proGoals: 62,
+    ownGoals: 52,
+    use: 67
+  },
+  {
+    id: 8,
+    name: 'Uai Toca',
+    games: 9,
+    victory: 6,
+    draw: 0,
+    defeat: 3,
+    proGoals: 56,
+    ownGoals: 44,
+    use: 67
+  },
+  {
+    id: 9,
+    name: 'Benfica',
+    games: 11,
+    victory: 5,
+    draw: 4,
+    defeat: 2,
+    proGoals: 76,
+    ownGoals: 61,
+    use: 45
+  },
+  {
+    id: 10,
+    name: 'Boca Júniors',
+    games: 11,
+    victory: 5,
+    draw: 3,
+    defeat: 3,
+    proGoals: 63,
+    ownGoals: 60,
+    use: 45
+  },
+  {
+    id: 11,
+    name: 'União Beer',
+    games: 11,
+    victory: 5,
+    draw: 2,
+    defeat: 4,
+    proGoals: 66,
+    ownGoals: 56,
+    use: 45
+  },
+  {
+    id: 12,
+    name: 'Bairro Hilda',
     games: 10,
     victory: 5,
     draw: 2,
     defeat: 3,
-    proGoals: 71,
-    ownGoals: 59,
-    use: 100
-  },
-  {
-    id: 8,
-    name: 'União Beer',
-    games: 9,
-    victory: 5,
-    draw: 1,
-    defeat: 3,
-    proGoals: 56,
-    ownGoals: 43,
-    use: 100
-  },
-  {
-    id: 9,
-    name: 'Bairro Hilda',
-    games: 9,
-    victory: 5,
-    draw: 1,
-    defeat: 3,
-    proGoals: 62,
-    ownGoals: 59,
-    use: 100
-  },
-  {
-    id: 10,
-    name: 'RomakLoc',
-    games: 8,
-    victory: 5,
-    draw: 1,
-    defeat: 2,
-    proGoals: 48,
-    ownGoals: 45,
-    use: 100
-  },
-  {
-    id: 11,
-    name: 'Uai Toca',
-    games: 8,
-    victory: 5,
-    draw: 0,
-    defeat: 3,
-    proGoals: 45,
-    ownGoals: 40,
-    use: 100
-  },
-  {
-    id: 12,
-    name: 'União Elite',
-    games: 6,
-    victory: 5,
-    draw: 0,
-    defeat: 1,
-    proGoals: 36,
-    ownGoals: 28,
-    use: 100
+    proGoals: 65,
+    ownGoals: 62,
+    use: 50
   },
   {
     id: 13,
-    name: 'Benfica',
-    games: 10,
-    victory: 4,
-    draw: 4,
-    defeat: 2,
-    proGoals: 68,
-    ownGoals: 58,
-    use: 100
+    name: 'RomakLoc',
+    games: 9,
+    victory: 5,
+    draw: 1,
+    defeat: 3,
+    proGoals: 55,
+    ownGoals: 53,
+    use: 56
   },
   {
     id: 14,
-    name: 'Boca Júniors',
-    games: 9,
-    victory: 4,
-    draw: 3,
-    defeat: 2,
-    proGoals: 54,
-    ownGoals: 47,
-    use: 100
+    name: 'União Elite',
+    games: 7,
+    victory: 5,
+    draw: 1,
+    defeat: 1,
+    proGoals: 41,
+    ownGoals: 33,
+    use: 71
   },
   {
     id: 15,
+    name: 'Os Tops',
+    games: 12,
+    victory: 4,
+    draw: 4,
+    defeat: 4,
+    proGoals: 82,
+    ownGoals: 79,
+    use: 33
+  },
+  {
+    id: 16,
     name: 'Favela FC',
     games: 9,
     victory: 4,
@@ -162,21 +173,21 @@ const data = [
     defeat: 4,
     proGoals: 44,
     ownGoals: 47,
-    use: 100
-  },
-  {
-    id: 16,
-    name: 'Os Tops',
-    games: 11,
-    victory: 3,
-    draw: 4,
-    defeat: 4,
-    proGoals: 74,
-    ownGoals: 72,
-    use: 100
+    use: 44
   },
   {
     id: 17,
+    name: 'Icasa',
+    games: 9,
+    victory: 3,
+    draw: 1,
+    defeat: 5,
+    proGoals: 59,
+    ownGoals: 61,
+    use: 33
+  },
+  {
+    id: 18,
     name: 'Borissia - Garavelo',
     games: 8,
     victory: 3,
@@ -184,18 +195,7 @@ const data = [
     defeat: 3,
     proGoals: 62,
     ownGoals: 58,
-    use: 100
-  },
-  {
-    id: 18,
-    name: 'Icasa',
-    games: 7,
-    victory: 3,
-    draw: 1,
-    defeat: 3,
-    proGoals: 47,
-    ownGoals: 47,
-    use: 100
+    use: 38
   },
   {
     id: 19,
@@ -206,7 +206,7 @@ const data = [
     defeat: 2,
     proGoals: 40,
     ownGoals: 30,
-    use: 100
+    use: 50
   },
   {
     id: 20,
@@ -217,7 +217,7 @@ const data = [
     defeat: 2,
     proGoals: 39,
     ownGoals: 31,
-    use: 100
+    use: 60
   },
   {
     id: 21,
@@ -228,7 +228,7 @@ const data = [
     defeat: 5,
     proGoals: 50,
     ownGoals: 51,
-    use: 100
+    use: 25
   },
   {
     id: 22,
@@ -239,7 +239,18 @@ const data = [
     defeat: 6,
     proGoals: 41,
     ownGoals: 64,
-    use: 100
+    use: 25
+  },
+  {
+    id: 23,
+    name: 'Ajax',
+    games: 7,
+    victory: 2,
+    draw: 0,
+    defeat: 5,
+    proGoals: 37,
+    ownGoals: 47,
+    use: 29
   },
   {
     id: 23,
@@ -250,29 +261,18 @@ const data = [
     defeat: 3,
     proGoals: 37,
     ownGoals: 40,
-    use: 100
-  },
-  {
-    id: 24,
-    name: 'Ajax',
-    games: 5,
-    victory: 2,
-    draw: 0,
-    defeat: 3,
-    proGoals: 26,
-    ownGoals: 30,
-    use: 100
+    use: 33
   },
   {
     id: 25,
     name: 'Holanda',
-    games: 5,
+    games: 6,
     victory: 2,
     draw: 0,
-    defeat: 3,
-    proGoals: 27,
-    ownGoals: 35,
-    use: 100
+    defeat: 4,
+    proGoals: 36,
+    ownGoals: 46,
+    use: 33
   },
   {
     id: 26,
@@ -283,7 +283,7 @@ const data = [
     defeat: 1,
     proGoals: 24,
     ownGoals: 23,
-    use: 100
+    use: 50
   },
   {
     id: 27,
@@ -294,7 +294,7 @@ const data = [
     defeat: 2,
     proGoals: 25,
     ownGoals: 19,
-    use: 100
+    use: 50
   },
   {
     id: 28,
@@ -305,7 +305,7 @@ const data = [
     defeat: 7,
     proGoals: 45,
     ownGoals: 55,
-    use: 100
+    use: 13
   },
   {
     id: 29,
@@ -316,10 +316,21 @@ const data = [
     defeat: 7,
     proGoals: 37,
     ownGoals: 62,
-    use: 100
+    use: 13
   },
   {
     id: 30,
+    name: 'CRB FC',
+    games: 7,
+    victory: 1,
+    draw: 2,
+    defeat: 4,
+    proGoals: 31,
+    ownGoals: 40,
+    use: 14
+  },
+  {
+    id: 31,
     name: 'Coyote',
     games: 7,
     victory: 1,
@@ -327,21 +338,21 @@ const data = [
     defeat: 5,
     proGoals: 39,
     ownGoals: 50,
-    use: 100
+    use: 14
   },
   {
-    id: 31,
-    name: 'CRB FC',
+    id: 32,
+    name: 'Borussia - Rubens',
     games: 6,
     victory: 1,
     draw: 1,
     defeat: 4,
-    proGoals: 20,
-    ownGoals: 29,
-    use: 100
+    proGoals: 32,
+    ownGoals: 52,
+    use: 17
   },
   {
-    id: 32,
+    id: 33,
     name: 'Os Granfinos',
     games: 5,
     victory: 1,
@@ -349,10 +360,10 @@ const data = [
     defeat: 3,
     proGoals: 29,
     ownGoals: 42,
-    use: 100
+    use: 20
   },
   {
-    id: 33,
+    id: 34,
     name: 'Diretoria FC',
     games: 5,
     victory: 1,
@@ -360,21 +371,21 @@ const data = [
     defeat: 4,
     proGoals: 28,
     ownGoals: 51,
-    use: 100
+    use: 20
   },
   {
-    id: 34,
-    name: 'Borussia - Rubens',
+    id: 35,
+    name: 'PSG',
     games: 4,
     victory: 1,
     draw: 0,
     defeat: 3,
-    proGoals: 21,
-    ownGoals: 37,
-    use: 100
+    proGoals: 20,
+    ownGoals: 28,
+    use: 25
   },
   {
-    id: 35,
+    id: 36,
     name: 'Danilo 10',
     games: 2,
     victory: 1,
@@ -382,10 +393,10 @@ const data = [
     defeat: 1,
     proGoals: 12,
     ownGoals: 12,
-    use: 100
+    use: 50
   },
   {
-    id: 36,
+    id: 37,
     name: 'Aliança - Andinho',
     games: 1,
     victory: 1,
@@ -396,7 +407,7 @@ const data = [
     use: 100
   },
   {
-    id: 37,
+    id: 38,
     name: 'AC Fenix',
     games: 1,
     victory: 1,
@@ -407,7 +418,7 @@ const data = [
     use: 100
   },
   {
-    id: 38,
+    id: 39,
     name: 'Thug Life',
     games: 1,
     victory: 1,
@@ -418,7 +429,7 @@ const data = [
     use: 100
   },
   {
-    id: 39,
+    id: 40,
     name: 'Viracopos',
     games: 1,
     victory: 1,
@@ -429,7 +440,7 @@ const data = [
     use: 100
   },
   {
-    id: 40,
+    id: 41,
     name: 'Madellin FC',
     games: 4,
     victory: 0,
@@ -437,10 +448,10 @@ const data = [
     defeat: 4,
     proGoals: 27,
     ownGoals: 40,
-    use: 100
+    use: 0
   },
   {
-    id: 41,
+    id: 42,
     name: 'Atalanta United',
     games: 4,
     victory: 0,
@@ -448,19 +459,9 @@ const data = [
     defeat: 4,
     proGoals: 10,
     ownGoals: 24,
-    use: 100
+    use: 0
   },
-  {
-    id: 42,
-    name: 'PSG',
-    games: 3,
-    victory: 0,
-    draw: 0,
-    defeat: 3,
-    proGoals: 10,
-    ownGoals: 19,
-    use: 100
-  },
+
   {
     id: 43,
     name: 'Aliança',
@@ -470,7 +471,7 @@ const data = [
     defeat: 1,
     proGoals: 14,
     ownGoals: 19,
-    use: 100
+    use: 0
   },
   {
     id: 44,
@@ -481,7 +482,7 @@ const data = [
     defeat: 1,
     proGoals: 12,
     ownGoals: 20,
-    use: 100
+    use: 0
   },
   {
     id: 45,
@@ -492,7 +493,7 @@ const data = [
     defeat: 0,
     proGoals: 10,
     ownGoals: 10,
-    use: 100
+    use: 0
   },
   {
     id: 46,
@@ -503,7 +504,7 @@ const data = [
     defeat: 0,
     proGoals: 5,
     ownGoals: 5,
-    use: 100
+    use: 0
   },
   {
     id: 47,
@@ -514,7 +515,7 @@ const data = [
     defeat: 1,
     proGoals: 6,
     ownGoals: 7,
-    use: 100
+    use: 0
   },
   {
     id: 48,
@@ -525,7 +526,7 @@ const data = [
     defeat: 1,
     proGoals: 5,
     ownGoals: 8,
-    use: 100
+    use: 0
   }
 ]
 
