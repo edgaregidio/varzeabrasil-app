@@ -58,7 +58,7 @@ export default function CopaCepro() {
         </div>
       </section>
 
-      <div className="games-results">
+      <div className="gunners-main-results">
         <GunnersMain />
       </div>
     </div>

@@ -201,10 +201,12 @@ footer,
 
 .tables {
   display: grid;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  /* background: red; */
+  background: var(--bg-color);
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   /* border: 1px solid black; */
 }
 
@@ -292,7 +294,7 @@ footer {
   background: var(--primary-color-nav);
   color: white;
   padding: 3rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   text-align: center;
   bottom: 0;
 }

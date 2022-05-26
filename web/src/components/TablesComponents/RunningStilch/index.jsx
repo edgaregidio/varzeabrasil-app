@@ -46,7 +46,7 @@ export default function RunningStilch({
 
   return (
     <TableContainer zIndex="-1">
-      <Table size="sm">
+      <Table size="sm" bg="while">
         <Thead>
           <Tr>
             <Th zIndex="-1" bg="white" position="absolute" minWidth="11.5rem">
