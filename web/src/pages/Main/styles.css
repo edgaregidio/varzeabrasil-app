@@ -29,6 +29,7 @@ footer,
   overflow: hidden;
   background-color: #000;
   z-index: -1;
+  cursor: pointer;
 }
 
 .news .card-news:before {

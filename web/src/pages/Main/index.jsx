@@ -18,7 +18,10 @@ export default function Main() {
     <div>
       {/* <Siderbar /> */}
       <div className="container-default">
-        <section className="news">
+        <section
+          className="news"
+          onClick={() => navigate('/tables/arenasoccer')}
+        >
           <div className="card-news">
             {/* <span className="game-time">Classificado</span> */}
             <div className="row--pre-game">
