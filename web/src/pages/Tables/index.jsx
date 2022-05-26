@@ -1,7 +1,10 @@
 import { Icon } from '@iconify/react'
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
+import CardCup from '../../components/CardCup'
 import Supplier from '../../components/Supplier'
+import CopaCepro from '../../assets/stadium/stadium3.jpg'
+import ArenaSoccer from '../../assets/stadium/arenasoccer.jpg'
 
 import './styles.css'
 
@@ -26,6 +29,24 @@ export default function Tables() {
           <Supplier />
         </section>
         <Outlet />
+        <section className="select-card-cup">
+          <CardCup
+            route={'tables/copacepro'}
+            photo={CopaCepro}
+            nameCup={'COPA CEPRO'}
+            description={
+              'Acompanhe aqui todas as notícias e tabelas da Copa Cepro 2022'
+            }
+          />
+          <CardCup
+            route={'tables/arenasoccer'}
+            photo={ArenaSoccer}
+            nameCup={'POWER RANKING - ARENA SOCCER'}
+            description={
+              'Acompanhe aqui todas as notícias e tabelas da 37° Power Ranking '
+            }
+          />
+        </section>
       </div>
       <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
     </>
