@@ -14,10 +14,11 @@ import {
 export default function ArenaSoccer() {
   return (
     <div>
-      <section className="tables-games"></section>
-
       <section className="content-page-tables-alt">
         <h1>Classificação 37º Power Ranking - Arena Soccer</h1>
+        <span className="update-date">
+          Atualizado dia: <strong>26/05/2022 às 17h00</strong>
+        </span>
         <div className="games-results">
           <RunningStilch
             name={'Classificação'}

@@ -8,6 +8,13 @@
   padding: 0 20%;
 }
 
+.update-date {
+  color: var(--secondary-color-text);
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 0.4rem;
+}
+
 .content-page-tables .games-results {
   background: var(--primary-color-text);
   padding: 2rem;
@@ -194,6 +201,10 @@
 
   .content-page-tables-alt {
     padding: 0;
+  }
+
+  .update-date {
+    left: 1rem;
   }
   .content-page-tables-alt h1 {
     padding: 0 1rem;
