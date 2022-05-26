@@ -1,6 +1,5 @@
 import React from 'react'
 import './styles.css'
-// import GunnersMain from '../../components/GunnersMain'
 import RunningStilch from '../../components/TablesComponents/RunningStilch'
 
 export default function ArenaSoccer() {
@@ -35,6 +34,10 @@ export default function ArenaSoccer() {
           <div className="tag color-tag-bronze"></div>
           <h1 className="text-tag">Taça Bronze</h1>
         </div>
+      </section>
+
+      <section className="news-arena">
+        <h1>noticia</h1>
       </section>
 
       <div className="tables-games">{/* <GunnersMain /> */}</div>

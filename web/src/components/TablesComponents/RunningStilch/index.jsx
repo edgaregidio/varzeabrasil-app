@@ -53,34 +53,34 @@ export default function RunningStilch({
               <Th zIndex="-1" bg="white" position="absolute" minWidth="11.5rem">
                 {name}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {games}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {victory}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {draw}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {defeat}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {proGoals}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {ownGoals}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {balance}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {proGoalsAverage}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {AgaintsGolsAverage}
               </Th>
-              <Th zIndex="-2" position="relative" left="11.5rem">
+              <Th position="relative" left="11.5rem">
                 {use}
               </Th>
             </Tr>
@@ -110,34 +110,34 @@ export default function RunningStilch({
                   &nbsp; &nbsp;
                   {item.name}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.games}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.victory}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.draw}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.defeat}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.proGoals}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.ownGoals}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {item.proGoals - item.ownGoals}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {(item.proGoals / item.games).toFixed(1)}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {(item.ownGoals / item.games).toFixed(1)}
                 </Td>
-                <Td zIndex="-2" position="relative" left="11.5rem">
+                <Td position="relative" left="11.5rem">
                   {}%
                 </Td>
               </Tr>
