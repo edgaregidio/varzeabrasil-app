@@ -46,43 +46,41 @@ export default function RunningStilch({
 
   return (
     <>
-      <TableContainer
-      // zIndex="-1"
-      >
+      <TableContainer zIndex="-1">
         <Table size="sm" bg="while">
           <Thead>
             <Tr>
               <Th zIndex="-1" bg="white" position="absolute" minWidth="11.5rem">
                 {name}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {games}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {victory}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {draw}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {defeat}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {proGoals}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {ownGoals}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {balance}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {proGoalsAverage}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {AgaintsGolsAverage}
               </Th>
-              <Th position="relative" left="11.5rem">
+              <Th zIndex="-2" position="relative" left="11.5rem">
                 {use}
               </Th>
             </Tr>
@@ -112,34 +110,34 @@ export default function RunningStilch({
                   &nbsp; &nbsp;
                   {item.name}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.games}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.victory}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.draw}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.defeat}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.proGoals}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.ownGoals}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {item.proGoals - item.ownGoals}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {(item.proGoals / item.games).toFixed(1)}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {(item.ownGoals / item.games).toFixed(1)}
                 </Td>
-                <Td position="relative" left="11.5rem">
+                <Td zIndex="-2" position="relative" left="11.5rem">
                   {}%
                 </Td>
               </Tr>
