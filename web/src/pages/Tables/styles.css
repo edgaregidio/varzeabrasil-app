@@ -7,7 +7,6 @@
   background: var(--primary-color);
   padding: 2rem;
   border-radius: 8px;
-  /* z-index: -2; */
 }
 
 .content-page-copacepro,
@@ -162,6 +161,7 @@
     background: transparent;
     border: 0;
     height: auto;
+    z-index: 0;
   }
 
   .games-results-alt .games-results {

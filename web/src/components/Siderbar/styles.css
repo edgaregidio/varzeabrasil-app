@@ -19,6 +19,7 @@ main {
   background: var(--primary-color-nav);
   padding: 0 1rem;
   transition: 0.5s ease;
+  z-index: 9;
 }
 
 .header-toggle {
