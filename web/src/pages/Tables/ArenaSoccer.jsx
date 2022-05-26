@@ -48,7 +48,8 @@ export default function ArenaSoccer() {
 
       <section className="news-arena">
         <span className="title-news">
-          Briga pela liderança da 37º Power Ranking Arena Soccer!
+          De olho no topo, Tupamaros quer retormar lidença da 37º Power Ranking
+          Arena Soccer!
           <p>Tupamaros bate o time da Holanda por 11 a 9</p>
         </span>
         <img src={Tupamaros} alt="Foto do time Tupamaros" />
