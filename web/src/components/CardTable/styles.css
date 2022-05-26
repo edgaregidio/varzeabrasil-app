@@ -76,6 +76,7 @@
   text-transform: lowercase;
   position: relative;
   bottom: 0.125rem;
+  z-index: -1;
 }
 
 .card-table .teams .results h2 {

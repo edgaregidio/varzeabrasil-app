@@ -2,7 +2,7 @@ import React from 'react'
 import CardTable from '../CardTable'
 
 import Lima from '../../assets/lima.png'
-import Braavos from '../../assets/braavos.png'
+import BraavosBlack from '../../assets/braavosblack.png'
 import Tabajara from '../../assets/tabajara.png'
 import GVilaNova from '../../assets/gvilanova.png'
 
@@ -17,7 +17,7 @@ export default function SemiFinal() {
         resultA={''}
         resultB={''}
         nameB={'Braavos'}
-        teamB={Braavos}
+        teamB={BraavosBlack}
         phase={'semi 1'}
       />
       <CardTable
