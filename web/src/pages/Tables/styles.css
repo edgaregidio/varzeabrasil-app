@@ -69,6 +69,32 @@
   font-weight: 300;
 }
 
+.container-tags {
+  padding: 0 20%;
+  padding-bottom: 1rem;
+}
+
+.container-tags .content-tags {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.container-tags .content-tags .tag {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 4px;
+  background: #1737fe;
+}
+
+.container-tags .content-tags .color-tag-silver {
+  background-color: var(--primary-color-text);
+}
+.container-tags .content-tags .color-tag-bronze {
+  background-color: #ff8c00;
+}
+
 /* ===== RESPOSIVE */
 
 @media screen and (max-width: 1024px) {
@@ -138,8 +164,21 @@
   }
 
   .games-results-alt .games-results {
-    background: red;
     padding: 1rem 0;
+  }
+
+  .container-tags {
+    padding: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-tags .content-tags {
+    padding: 0;
+  }
+  .text-tag {
+    font-size: 0.8rem;
+    color: var(--secondary-color-text);
   }
 }
 

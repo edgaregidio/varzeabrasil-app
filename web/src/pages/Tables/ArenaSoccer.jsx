@@ -26,6 +26,16 @@ export default function ArenaSoccer() {
           />
         </div>
       </section>
+      <section className="container-tags">
+        <div className="content-tags">
+          <div className="tag"></div>
+          <h1 className="text-tag">Taça Ouro</h1>
+          <div className="tag color-tag-silver"></div>
+          <h1 className="text-tag">Taça Prata</h1>
+          <div className="tag color-tag-bronze"></div>
+          <h1 className="text-tag">Taça Bronze</h1>
+        </div>
+      </section>
 
       <div className="tables-games">{/* <GunnersMain /> */}</div>
     </div>
