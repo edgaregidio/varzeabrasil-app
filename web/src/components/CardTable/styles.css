@@ -10,6 +10,10 @@
 }
 
 .card-table + .card-table {
+  border: 0;
+}
+
+.card-table + .card-table {
   margin-top: 1rem;
 }
 

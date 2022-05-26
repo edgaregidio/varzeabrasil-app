@@ -30,30 +30,19 @@ export default function Main() {
               <img src={Folia} alt="Folia" />
               {/* <h4 className="textFlashes">Bola rolando...</h4> */}
             </div>
-            <h1>Copa Cepro: 2 Confrontos da Semi definidos</h1>
+            <h1>37º Power Ranking Arena Soccer agitada!</h1>
+            <br></br>
             <p>
-              Copa Cepro 2022 tem sorteios e confrontos definidos que serão
-              disputados nesse próximo final de semana (28 e 29) no estádio
-              Filostro Machado (Arena Muranga).
+              Tupamaros bate o time da Holanda por 11 a 9 mas perder liderança
+              por número de jogos.
             </p>
-            <p>🎲 Lima FC enfrenta Braavos</p>
-            <p>🎲 Tabajara recebe o G. Vila Nova.</p>
+            <p>Bope pega lidença por 1 jogo a mais que Tupamaros</p>
 
             {/* TEMPO REAL  */}
 
             {/* <p className="game-details">🟥 - Cartão vermelhor </p>
-            <p className="game-details">⚽ - Gol do  </p>
-            <p className="game-details"> - Começa o segundo tempo!</p> */}
-            {/* <p className="game-details">Fim do primeuro tempo</p> */}
-            {/* <p className="game-details">🟥 - Expulsos </p> */}
             {/* <p className="game-details">🟨 - Cartão amarelo  </p> */}
-            {/* <p className="game-details">Acabou, vamos para os penaltis! </p>
-            <p className="game-details">⚽ - Gol do Folia, novo empate! </p>
-            <p className="game-details">⚽ - Gol do Lima, virada!. </p>
-            <p className="game-details">⚽ - Gol do Lima, mais um empate. </p> */}
-            {/* <p className="game-details">⚽ - Gol do Folia </p> */}
-            {/* <p className="game-details">⚽ - Gol do Lima </p> */}
-            {/* <p className="game-details">10:53 - Apita o árbitro!</p> */}
+            {/* <p className="game-details">⚽ - Gol do Folia, novo empate! </p> */}
           </div>
         </section>
 

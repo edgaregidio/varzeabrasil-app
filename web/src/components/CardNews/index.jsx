@@ -34,6 +34,16 @@ const newsOrder = [
       'Em jogo de 10 gols, o Geração Vila Nova sofre 4 gols mas faz 6...',
     route: '/table/copacepro',
     alt: 'Imagem da noticia y'
+  },
+  {
+    id: 4,
+    img: LimaFolia,
+    nameCamp: 'Copa Cepro',
+    title: 'Copa Cepro: 2 Confrontos da Semi definidos',
+    description:
+      'Copa Cepro 2022 tem sorteios e confrontos definidos e serão disputados nos dias 28 e 29 no estádio Filostro Machado (Arena Muranga).',
+    route: '/table/copacepro',
+    alt: 'Imagem da noticia y'
   }
 ]
 

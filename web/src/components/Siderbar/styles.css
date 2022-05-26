@@ -4,7 +4,6 @@ main {
   padding: 0;
   font-size: 1rem;
   transition: 0.5s ease;
-  z-index: 998;
 }
 
 .header {
@@ -19,7 +18,7 @@ main {
   background: var(--primary-color-nav);
   padding: 0 1rem;
   transition: 0.5s ease;
-  z-index: 9;
+  z-index: 1;
 }
 
 .header-toggle {
@@ -46,6 +45,7 @@ main {
   background: var(--primary-side-bar);
   padding-top: 1rem;
   transition: 0.5s ease;
+  z-index: 1;
 }
 
 .show {
@@ -72,7 +72,9 @@ main {
 }
 @media screen and (max-width: 370px) {
   .logo-vb {
-    right: 15%;
+    width: 8rem;
+    right: 5%;
+    height: auto;
   }
 }
 
