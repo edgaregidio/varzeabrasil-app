@@ -1,16 +1,32 @@
 import React, { useState } from 'react'
 import { Icon } from '@iconify/react'
-import Nav from '../../components/Nav'
 import QuarterFinals from '../../components/QuarterFinals'
 import SemiFinal from '../../components/SemiFinal'
 import Final from '../../components/Final'
 import './styles.css'
 import GunnersMain from '../../components/GunnersMain'
+import Supplier from '../../components/Supplier'
+import { useNavigate } from 'react-router-dom'
 
 export default function CopaCepro() {
   const [count, setCount] = useState(2)
+  const navitage = useNavigate()
   return (
     <div className="content-page-tables">
+      <section className="tables-camps">
+        <div className="content-back">
+          <Icon
+            icon="system-uicons:chevron-left"
+            style={{
+              fontSize: '2rem',
+              color: 'var(--primary-color-text)',
+              cursor: 'pointer'
+            }}
+            onClick={() => navitage('/tables')}
+          />
+          <h1>Selecione um campeonato</h1>
+        </div>
+      </section>
       <h1>Copa Cepro 2022 1º Temporada</h1>
       <section className="">
         <div className="content-navigation">

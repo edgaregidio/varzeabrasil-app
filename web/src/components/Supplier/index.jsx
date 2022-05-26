@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import './styles.css'
 
 export const list = [
-  { id: 1, value: '/tables', name: 'Selecione' },
+  { id: 1, value: 'tables', name: 'Selecione' },
   { id: 2, value: 'arenasoccer', name: 'Power Ranking Arena Soccer' },
   { id: 3, value: 'copacepro', name: 'Copa Cepro' }
 ]

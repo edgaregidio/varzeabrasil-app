@@ -12,7 +12,7 @@ export default function Tables() {
   const navigate = useNavigate()
   return (
     <>
-      <div className="container-default">
+      <div className="content-page-tables">
         <section className="tables-camps">
           <div className="content-back">
             <Icon
@@ -28,9 +28,9 @@ export default function Tables() {
           </div>
           <Supplier />
         </section>
-        <Outlet />
+
         <section className="select-card-cup">
-          <span className="title-cup">1º Principais competições</span>
+          <span className="title-cup">Principais competições</span>
           <div className="main-hearts">
             <CardCup
               route={'tables/copacepro'}
@@ -50,6 +50,7 @@ export default function Tables() {
             />
           </div>
         </section>
+        <Outlet />
       </div>
       <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>
     </>

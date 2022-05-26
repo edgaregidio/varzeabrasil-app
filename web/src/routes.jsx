@@ -16,11 +16,11 @@ export default function MainRoutes() {
       <Route path="/" element={<Siderbar />}>
         <Route path="/" element={<Main />} />
         <Route path="news" element={<News />} />
-        <Route path="tables" element={<Tables />}>
-          <Route path="copacepro" element={<CopaCepro />} />
-          <Route path="arenasoccer" element={<ArenaSoccer />} />
-          {/* <Route path=":id" element={<Profile />} /> */}
-        </Route>
+        <Route path="tables" element={<Tables />} />
+        <Route path="tables/copacepro" element={<CopaCepro />} />
+        <Route path="tables/arenasoccer" element={<ArenaSoccer />} />
+        {/* <Route path=":id" element={<Profile />} /> */}
+        {/* </Route> */}
         <Route path="/gunners" element={<Gunners />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Route>

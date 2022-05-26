@@ -66,7 +66,7 @@ export default function Main() {
                     className="content-button"
                     onClick={() => navigate('/tables/copacepro')}
                   >
-                    <a href="#table">Ver tabela completa</a>
+                    <a href="">Ver tabela completa</a>
                     <Icon
                       icon="bx:right-arrow-alt"
                       color="var(--primary-color-text)"

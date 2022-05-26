@@ -1,3 +1,13 @@
+.header-select-pages {
+  background: red;
+  height: 10rem;
+  display: flex;
+  padding: 0;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
 .content-page-tables {
   display: flex;
   flex-direction: column;
@@ -49,14 +59,21 @@
   height: auto;
 }
 
+.tables-camps-alt {
+  padding: 2.2rem 20%;
+}
+/* .tables-camps-alt, */
 .tables-camps {
   height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  text-align: center;
+  padding: 0;
 }
 
+.tables-camps-alt .content-back h1,
 .tables-camps .content-back h1 {
   color: var(--primary-color-text);
   width: 100%;
@@ -67,7 +84,14 @@
 .content-back {
   display: flex;
   align-items: center;
+  text-align: center;
   width: 100%;
+  padding: 0;
+}
+
+.content-back h1 {
+  font-size: 1rem;
+  text-transform: capitalize;
 }
 
 .content-navigation {
@@ -205,6 +229,7 @@
     font-size: 1.4rem;
   }
 
+  .tables-camps-alt h1,
   .tables-camps h1 {
     text-align: center;
     font-size: 1rem;
@@ -212,6 +237,7 @@
 }
 
 @media screen and (max-width: 800px) {
+  .tables-camps-alt,
   .tables-camps {
     flex-direction: column;
     height: auto !important;

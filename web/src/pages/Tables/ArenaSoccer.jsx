@@ -1,19 +1,31 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { Icon } from '@iconify/react'
 import './styles.css'
 import RunningStilch from '../../components/TablesComponents/RunningStilch'
 import Tupamaros from '../../assets/tupamaros.jpeg'
-import {
-  Tag,
-  TagLabel,
-  TagLeftIcon,
-  TagRightIcon,
-  TagCloseButton,
-  HStack
-} from '@chakra-ui/react'
+import { Tag } from '@chakra-ui/react'
+import Supplier from '../../components/Supplier'
 
 export default function ArenaSoccer() {
+  const navigate = useNavigate()
+
   return (
-    <div>
+    <div className="">
+      <section className="tables-camps-alt">
+        <div className="content-back">
+          <Icon
+            icon="system-uicons:chevron-left"
+            style={{
+              fontSize: '2rem',
+              color: 'var(--primary-color-text)',
+              cursor: 'pointer'
+            }}
+            onClick={() => navigate('/tables')}
+          />
+          <h1>Selecione um campeonato</h1>
+        </div>
+      </section>
       <section className="content-page-tables-alt">
         <h1>Classificação 37º Power Ranking - Arena Soccer</h1>
         <span className="update-date">
