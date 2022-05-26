@@ -30,22 +30,25 @@ export default function Tables() {
         </section>
         <Outlet />
         <section className="select-card-cup">
-          <CardCup
-            route={'tables/copacepro'}
-            photo={CopaCepro}
-            nameCup={'COPA CEPRO'}
-            description={
-              'Acompanhe aqui todas as notícias e tabelas da Copa Cepro 2022'
-            }
-          />
-          <CardCup
-            route={'tables/arenasoccer'}
-            photo={ArenaSoccer}
-            nameCup={'POWER RANKING - ARENA SOCCER'}
-            description={
-              'Acompanhe aqui todas as notícias e tabelas da 37° Power Ranking '
-            }
-          />
+          <span className="title-cup">1º Principais competições</span>
+          <div className="main-hearts">
+            <CardCup
+              route={'tables/copacepro'}
+              photo={CopaCepro}
+              nameCup={'COPA CEPRO'}
+              description={
+                'Acompanhe aqui todas as notícias e tabelas da Copa Cepro 2022'
+              }
+            />
+            <CardCup
+              route={'tables/arenasoccer'}
+              photo={ArenaSoccer}
+              nameCup={'POWER RANKING - ARENA SOCCER'}
+              description={
+                'Acompanhe aqui todas as notícias e tabelas da 37° Power Ranking '
+              }
+            />
+          </div>
         </section>
       </div>
       <footer>Copyright © 2022 EvoluTI - Todos os direitos reservados</footer>

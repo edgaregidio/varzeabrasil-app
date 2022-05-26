@@ -25,6 +25,7 @@ export default function CardCup({ nameCup, description, photo, route }) {
         flexDirection="column"
         alignItems="center"
         justifyContent="space-between"
+        textAlign="center"
       >
         <Flex justifyContent={{ base: 'center', md: 'end' }} mt={-16}>
           <Image
