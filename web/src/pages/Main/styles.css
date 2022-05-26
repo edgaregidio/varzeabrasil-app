@@ -34,6 +34,7 @@ footer,
   height: 35rem;
   position: relative;
   overflow: hidden;
+  background-color: #000;
   z-index: -1;
 }
 
@@ -209,7 +210,7 @@ footer,
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   /* background: red; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .content-news {
@@ -230,10 +231,10 @@ footer,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--primary-color);
-  /* background: yellow; */
+  background: white;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 0.5rem;
   height: auto;
 }
 
@@ -242,7 +243,7 @@ footer,
   margin: 1rem 0;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--primary-color-text);
 }
 
 .container-table h1 {
@@ -251,30 +252,40 @@ footer,
   font-weight: 300;
   text-transform: uppercase;
   cursor: pointer;
+  color: var(--primary-color-text);
 }
 
-.button-table a {
-  color: var(--secondary-color);
-  background: var(--primary-color);
-  width: 12rem;
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.content-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
   padding: 0.5rem;
-  border-radius: 4px;
-  text-align: center;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.content-button a {
+  background: transparent;
+  border: 0;
+  color: var(--primary-color-text);
+  margin-right: 0.5rem;
   transition: all ease 0.3s;
 }
 
-.button-table {
-  background: transparent;
-  border: 0;
-  margin-top: 2rem;
-}
-
-.button-table a:hover {
-  color: var(--primary-color);
-  background: var(--secondary-color);
+.content-button a:hover {
+  filter: brightness(0.9);
   text-align: center;
+  background: transparent;
 }
 
 /* ========= FOOTER */
@@ -400,6 +411,11 @@ footer {
     font-weight: 600;
     padding: 0.5rem 1.2rem;
     border-radius: 35px;
+  }
+
+  .content-news h2,
+  .container-table h2 {
+    padding: 0 0.5rem;
   }
 
   footer {

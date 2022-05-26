@@ -15,7 +15,7 @@ function Siderbar() {
     <main className={show ? 'space-toggle' : null}>
       <header className={`header ${show ? 'space-toggle' : null} `}>
         <div className="header-toggle" onClick={() => setShow(!show)}>
-          <Icon icon="system-uicons:menu-hamburger" className="menu-pd" />
+          <Icon icon="typcn:th-menu" className="menu-pd" />
         </div>
         <img
           src={Logo}

@@ -21,28 +21,30 @@
 
 .nav-logo-icon {
   font-size: 1.25rem;
-  color: var(--secondary-color);
+  color: white;
   cursor: pointer;
 }
 
 .nav-logo-name {
   font-weight: 700;
-  color: var(--secondary-color-alt-light);
+  color: white;
 }
 
 .nav-link {
   display: flex;
   align-items: center;
   position: relative;
-  color: var(--secondary-color-alt-light);
+  color: #ececec;
   width: 20rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 1.5rem;
   transition: 0.5s;
 }
 
 .nav-link:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color-alt-light);
+  background: #c4c4c4;
+  color: white;
 }
 
 .nav-link svg {
@@ -50,7 +52,7 @@
 }
 
 .nav-link svg:hover {
-  color: var(--secondary-color-alt-light);
+  color: var(--primary-side-bar);
   /* background-color: red; */
 }
 

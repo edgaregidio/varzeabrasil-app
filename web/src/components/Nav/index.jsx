@@ -10,26 +10,32 @@ export default function Nav() {
     <nav className="nav">
       <div>
         <Link className="nav-logo" to="/">
-          <Icon icon="system-uicons:home" className="nav-logo-icon" />
+          <Icon icon="majesticons:home-simple" className="nav-logo-icon" />
           <span className="nav-logo-name">Home</span>
         </Link>
         <div className="nav-list">
           <Link to="/tables" className="nav-link">
-            <Icon icon="system-uicons:table-header" className="nav-logo-icon" />
+            <Icon
+              icon="ic:baseline-table-chart"
+              rotate={3}
+              className="nav-logo-icon"
+            />
             <span className="nav-link-name">Tabelas</span>
           </Link>
           <Link to="/news" className="nav-link">
-            <Icon icon="system-uicons:newspaper" className="nav-logo-icon" />
+            <Icon icon="ion:newspaper-sharp" className="nav-logo-icon" />
             <span className="nav-link-name">Notícias</span>
           </Link>
           <Link to="/contact" className="nav-link">
-            <Icon icon="system-uicons:mail" className="nav-logo-icon" />
-            <span className="nav-link-name">Contato</span>
+            <Icon icon="mdi:email" className="nav-logo-icon" />
+            <span icon="ic:round-email" className="nav-link-name">
+              Contato
+            </span>
           </Link>
         </div>
       </div>
       <Link to="/login" className="nav-link ">
-        <Icon icon="system-uicons:user-male-circle" className="nav-logo-icon" />
+        <Icon icon="carbon:user-avatar-filled" className="nav-logo-icon" />
         <span className="nav-link-name">Login</span>
       </Link>
     </nav>

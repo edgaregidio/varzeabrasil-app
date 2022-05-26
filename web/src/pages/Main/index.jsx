@@ -9,6 +9,7 @@ import Lima from '../../assets/lima.png'
 import Folia from '../../assets/folia.png'
 import CardNews from '../../components/CardNews'
 import Siderbar from '../../components/Siderbar'
+import { Icon } from '@iconify/react'
 
 export default function Main() {
   const navigate = useNavigate()
@@ -67,12 +68,19 @@ export default function Main() {
               <div className="content-table">
                 <h1>Semi final</h1>
                 <SemiFinal />
-                <button
-                  className="button-table"
-                  onClick={() => navigate('/tables/copacepro')}
-                >
-                  <a href="#table">Ver tabela completa...</a>
-                </button>
+
+                <div className="container-button">
+                  <button
+                    className="content-button"
+                    onClick={() => navigate('/tables/copacepro')}
+                  >
+                    <a href="#table">Ver tabela completa</a>
+                    <Icon
+                      icon="bx:right-arrow-alt"
+                      color="var(--primary-color-text)"
+                    />
+                  </button>
+                </div>
               </div>
             </div>
             <GunnersMain />
