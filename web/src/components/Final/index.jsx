@@ -1,7 +1,7 @@
 import React from 'react'
 import CardTable from '../CardTable'
 
-// import Lima from '../../assets/lima.png'
+import Lima from '../../assets/lima.png'
 // import Folia from '../../assets/folia.png'
 // import Chopp from '../../assets/chopp.png'
 // import Tabajara from '../../assets/tabajara.png'
@@ -17,8 +17,8 @@ export default function Final() {
       <CardTable
         date={''}
         time={''}
-        nameA={'Vencedor 1'}
-        teamA={Shield}
+        nameA={'Lima'}
+        teamA={Lima}
         resultA={''}
         resultB={''}
         nameB={'Vencedor 2'}
