@@ -18,10 +18,7 @@ export default function Main() {
     <div>
       {/* <Siderbar /> */}
       <div className="container-default">
-        <section
-          className="news"
-          onClick={() => navigate('/tables/arenasoccer')}
-        >
+        <section className="news" onClick={() => navigate('/tables/copacepro')}>
           <div className="card-news">
             {/* <span className="game-time">Classificado</span> */}
             <div className="row--pre-game">
@@ -33,13 +30,10 @@ export default function Main() {
               <img src={Folia} alt="Folia" />
               {/* <h4 className="textFlashes">Bola rolando...</h4> */}
             </div>
-            <h1>37º Power Ranking Arena Soccer agitada!</h1>
+            <h1>Final definida na Copa Cepro 2022 1° Temporada</h1>
             <br></br>
-            <p>
-              Tupamaros bate o time da Holanda por 11 a 9 mas perder liderança
-              por número de jogos.
-            </p>
-            <p>Bope pega lidença por 1 jogo a mais que Tupamaros</p>
+            <p>G. Vila bate o Tabajara JR10 e está na final!</p>
+            <p>Lima mantem favoritismo e vence Braavos!</p>
 
             {/* TEMPO REAL  */}
 

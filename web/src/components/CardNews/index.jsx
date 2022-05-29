@@ -1,6 +1,8 @@
 import React from 'react'
 import TabajaraChopp from '../../assets/tabajara2x1chopp.jpeg'
 import LimaFolia from '../../assets/lima3x3folia.jpeg'
+import SemiCopaCepro from '../../assets/semicopacepro.jpeg'
+import ArenaSoccer from '../../assets/stadium/arenasoccer.jpg'
 
 import './styles.css'
 
@@ -43,6 +45,16 @@ const newsOrder = [
     description:
       'Copa Cepro 2022 tem sorteios e confrontos definidos e serão disputados nos dias 28 e 29 no estádio Filostro Machado (Arena Muranga).',
     route: '/table/copacepro',
+    alt: 'Imagem da noticia y'
+  },
+  {
+    id: 5,
+    img: ArenaSoccer,
+    nameCamp: 'Copa Cepro',
+    title: '37º Power Ranking Arena Soccer agitada!',
+    description:
+      ' Tupamaros bate o time da Holanda por 11 a 9 mas perder liderança por número de jogos.',
+    route: '/table/arenasoccer',
     alt: 'Imagem da noticia y'
   }
 ]
