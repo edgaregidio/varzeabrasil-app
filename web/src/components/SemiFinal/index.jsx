@@ -10,8 +10,8 @@ export default function SemiFinal() {
   return (
     <>
       <CardTable
-        date={'SAB 28/05/2022'}
-        time={'16h00'}
+        date={'DOM 29/05/2022'}
+        time={'08h00'}
         nameA={'Lima FC'}
         teamA={Lima}
         resultA={'1'}
@@ -26,11 +26,11 @@ export default function SemiFinal() {
         time={'10h00'}
         nameA={'Tabajara JR10'}
         teamA={Tabajara}
-        resultA={''}
-        resultB={''}
+        resultA={'0'}
+        resultB={'2'}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
-        live={'Bola rolando'}
+        live={'Encerrado'}
         phase={'semi 2'}
       />
     </>

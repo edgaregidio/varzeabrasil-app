@@ -25,7 +25,7 @@
 .card-table .teams .team-col h1 {
   font-weight: 300;
   font-size: 0.85rem;
-  color: var(--primary-color-text);
+  color: var(--secondary-color-text);
   text-transform: capitalize;
 }
 
