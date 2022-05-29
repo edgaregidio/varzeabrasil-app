@@ -14,10 +14,11 @@ export default function SemiFinal() {
         time={'16h00'}
         nameA={'Lima FC'}
         teamA={Lima}
-        resultA={''}
-        resultB={''}
+        resultA={'1'}
+        resultB={'0'}
         nameB={'Braavos'}
         teamB={BraavosBlack}
+        live={'Encerrado'}
         phase={'semi 1'}
       />
       <CardTable
@@ -29,6 +30,7 @@ export default function SemiFinal() {
         resultB={''}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
+        live={'Bola rolando'}
         phase={'semi 2'}
       />
     </>
