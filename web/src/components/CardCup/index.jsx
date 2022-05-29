@@ -41,7 +41,7 @@ export default function CardCup({ nameCup, description, photo, route }) {
         </Flex>
 
         <chakra.h2
-          color={useColorModeValue('gray.800', 'white')}
+          color={useColorModeValue('brand.700', 'brand.700')}
           fontSize={{ base: '2xl', md: '3xl' }}
           mt={{ base: 2, md: 0 }}
           fontWeight="bold"
@@ -49,7 +49,7 @@ export default function CardCup({ nameCup, description, photo, route }) {
           {nameCup}
         </chakra.h2>
 
-        <chakra.p mt={2} color={useColorModeValue('gray.600', 'gray.200')}>
+        <chakra.p mt={2} color={useColorModeValue('brand.300', 'brand.300')}>
           {description}
         </chakra.p>
 
