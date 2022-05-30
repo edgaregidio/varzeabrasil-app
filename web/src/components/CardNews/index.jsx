@@ -8,26 +8,6 @@ import './styles.css'
 
 const newsOrder = [
   {
-    id: 1,
-    img: TabajaraChopp,
-    nameCamp: 'Copa Cepro',
-    title: 'Braavos Classificado',
-    description:
-      'Pelo segundo jogo das quartas, Braavos vence o Baxadão e avança',
-    route: '/table/copacepro',
-    alt: 'Imagem da noticia x'
-  },
-  {
-    id: 2,
-    img: LimaFolia,
-    nameCamp: 'Copa Cepro',
-    title: 'Deu Lima',
-    description:
-      'Jogo com muito empate e virada, Lima vence o Folia nos penaltis e se classifica.',
-    route: '/table/copacepro',
-    alt: 'Imagem da noticia y'
-  },
-  {
     id: 3,
     img: TabajaraChopp,
     nameCamp: 'Copa Cepro',
