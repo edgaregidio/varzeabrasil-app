@@ -138,7 +138,7 @@ export default function RunningStilch({
                   {(item.ownGoals / item.games).toFixed(1)}
                 </Td>
                 <Td zIndex="-2" position="relative" left="11.5rem">
-                  {}%
+                  {item.use}%
                 </Td>
               </Tr>
             ))}
