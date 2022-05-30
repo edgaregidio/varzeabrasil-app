@@ -9,7 +9,7 @@ import Supplier from '../../components/Supplier'
 import { useNavigate } from 'react-router-dom'
 
 export default function CopaCepro() {
-  const [count, setCount] = useState(2)
+  const [count, setCount] = useState(3)
   const navitage = useNavigate()
   return (
     <div className="content-page-tables">

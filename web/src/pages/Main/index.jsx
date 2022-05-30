@@ -1,15 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import SemiFinal from '../../components/SemiFinal'
 import GunnersMain from '../../components/GunnersMain'
 import './styles.css'
-import Nav from '../../components/Nav'
 
 import Lima from '../../assets/lima.png'
 import Folia from '../../assets/folia.png'
 import CardNews from '../../components/CardNews'
-import Siderbar from '../../components/Siderbar'
 import { Icon } from '@iconify/react'
+import Final from '../../components/Final'
 
 export default function Main() {
   const navigate = useNavigate()
@@ -53,7 +51,7 @@ export default function Main() {
               <h2>Copa Cepro</h2>
               <div className="content-table">
                 <h1>Semi final</h1>
-                <SemiFinal />
+                <Final />
 
                 <div className="container-button">
                   <button
