@@ -9,8 +9,8 @@ export default function Final() {
   return (
     <>
       <CardTable
-        date={'DOM 06/05/2022'}
-        time={''}
+        date={'DOM 12/06/2022'}
+        time={'10h00'}
         nameA={'Lima FC'}
         teamA={Lima}
         resultA={''}
