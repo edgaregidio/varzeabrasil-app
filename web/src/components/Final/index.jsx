@@ -13,11 +13,11 @@ export default function Final() {
         time={'10h00'}
         nameA={'Lima FC'}
         teamA={Lima}
-        resultA={''}
-        resultB={''}
+        resultA={'0'}
+        resultB={'2'}
         nameB={'G. Vila Nova'}
         teamB={GVilaNova}
-        live={''}
+        live={'Encerrado'}
         phase={'Final'}
       />
     </>

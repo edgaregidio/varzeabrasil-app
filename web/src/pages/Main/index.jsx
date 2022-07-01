@@ -28,10 +28,10 @@ export default function Main() {
               <img src={Folia} alt="Folia" />
               {/* <h4 className="textFlashes">Bola rolando...</h4> */}
             </div>
-            <h1>Final definida na Copa Cepro 2022 1° Temporada</h1>
+            <h1>Geração Vila Nova Campeão da Cepro 2022 1° Temporada</h1>
             <br></br>
-            <p>G. Vila bate o Tabajara JR10 e está na final!</p>
-            <p>Lima mantem favoritismo e vence Braavos!</p>
+            <p>G. Vila vence por 2 a 0 e fatura campeoanto</p>
+            {/* <p>Lima mantem favoritismo e vence Braavos!</p> */}
 
             {/* TEMPO REAL  */}
 
